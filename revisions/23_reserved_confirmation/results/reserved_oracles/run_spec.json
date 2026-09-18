@@ -1,0 +1,855 @@
+{
+  "status": "independent_reserved_cross_environment_confirmation",
+  "config": {
+    "status": "independent_reserved_cross_environment_confirmation",
+    "development_gate": "revisions/22_predicate_impact_testing/results/selection_analysis/completion.json",
+    "exposure_snapshot": "research/validation/exposure_snapshot_20260905.json",
+    "roster_output": "revisions/23_reserved_confirmation/reserved_roster.json",
+    "selection_seed": "skilllineage-r23-confirmation-20260906",
+    "tasks_per_family": {
+      "alfworld": 8,
+      "scienceworld": 16
+    },
+    "expected_tasks": {
+      "alfworld": 48,
+      "scienceworld": 48
+    },
+    "scienceworld_jar": "research/validation/vendor/scienceworld-e8216d6.jar",
+    "max_steps": {
+      "alfworld": 120,
+      "scienceworld": 160
+    },
+    "oracle_output": "revisions/23_reserved_confirmation/results/reserved_oracles",
+    "spec_output": "revisions/23_reserved_confirmation/predicate_specs.json",
+    "mutation_output": "revisions/23_reserved_confirmation/results/native_mutations",
+    "selection_output": "revisions/23_reserved_confirmation/results/selection_analysis",
+    "minimum_family_support": 1,
+    "maximum_family_support_fraction": 0.5,
+    "maximum_singleton_specs_per_family_and_kind": 1,
+    "maximum_multitask_specs_per_family_and_kind": 4,
+    "selection_methods": [
+      "predicate_impact",
+      "family_predicate_random",
+      "skill_family_random",
+      "random",
+      "family_stratified",
+      "lexical_similarity",
+      "shortest_first",
+      "oracle_upper_bound"
+    ],
+    "random_seeds": 200,
+    "task_budgets": [
+      1,
+      2,
+      3,
+      5,
+      10,
+      20
+    ],
+    "estimated_step_budgets": [
+      25,
+      50,
+      100,
+      250,
+      500
+    ],
+    "primary_task_budget": 3,
+    "confirmatory_gate": {
+      "minimum_detectable_predicate_specs": 30,
+      "minimum_multitask_detectable_specs": 10,
+      "minimum_environments": 2,
+      "minimum_skill_families": 8,
+      "minimum_predicate_impact_detection_rate": 0.8,
+      "minimum_absolute_lift_over_skill_family_random": 0.2,
+      "maximum_conditional_randomization_p": 0.01,
+      "minimum_each_environment_detection_rate": 0.75,
+      "minimum_each_environment_absolute_lift": 0.15,
+      "maximum_each_environment_conditional_p": 0.05
+    }
+  },
+  "tasks": [
+    {
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-Book-None-DeskLamp-308/trial_T20190908_020029_636862/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "dd43164c349fe1df1cf2628619108fb2934f7896e94d250b4e1b792a29549c32"
+    },
+    {
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_161733_213242/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "dd4ed62001e0ef7e9cd483be23ae319e6206bfdbcce2d0e2f546fbebf9e24dac"
+    },
+    {
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-CD-None-DeskLamp-308/trial_T20190908_141942_810052/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "c84cb1a26b838088d36bc520b1e0ee53295be17529d7330d69be4b009d2a8854"
+    },
+    {
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-CD-None-DeskLamp-308/trial_T20190908_142046_281296/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "60319d4f72aceb964910e4a58b51f4cb34f946a063fc11588fe8f4df24d65a70"
+    },
+    {
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-Book-None-DeskLamp-308/trial_T20190908_144951_587345/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "109a155edd6788138921cc293ff3e76581ee5d901a1bcebe8a9030528bd2da9e"
+    },
+    {
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-Book-None-DeskLamp-308/trial_T20190908_020048_814402/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "759a76c80ca1f9c239aafe0d03a37b41cbc79e965c8e5b91445ad0e74d938a3e"
+    },
+    {
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-Pencil-None-DeskLamp-308/trial_T20190908_220656_510400/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "974454ac978fec801ee62e10f676773b3d0903c9c436b33b3d83f7e8e438c913"
+    },
+    {
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-Bowl-None-DeskLamp-308/trial_T20190907_133935_066606/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "567124f2c0ca5131a50c03369e99921a62a7ecc08ebadc237314e477ed28c13c"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_unseen/pick_and_place_simple-PepperShaker-None-Drawer-10/trial_T20190918_154424_844749/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "54d87970e634d127737287abf112bd6e531b3ab349fe2ed51e4419037def7fbd"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205204_244321/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "76050f127ff96cfe7a1179f01a7d967f4bca9f3d299da9d137de742b3fb8ccc8"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_unseen/pick_and_place_simple-Watch-None-Safe-219/trial_T20190907_074643_810052/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "e4d3a6358f4f107edf82b5b02608897b3153b1e3cbc89e072539aeada86a756a"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_unseen/pick_and_place_simple-SoapBottle-None-Toilet-424/trial_T20190907_004404_604165/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "35e0bce3493be0f8d3b653db94bac4534a0137d18ece47a138e63a90a101348c"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_unseen/pick_and_place_simple-Pencil-None-Shelf-308/trial_T20190908_122024_052056/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "df91e69adf3bdf8d55bae8c24bd63e555298194d3d0c99b0245fca2a2d71859e"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_unseen/pick_and_place_simple-Pencil-None-Shelf-308/trial_T20190908_121952_610012/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "a3ac4855bce0f32cc900a886f4335911c761c5a451c15ceef6964f8814257d64"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_unseen/pick_and_place_simple-Mug-None-Desk-308/trial_T20190909_203041_433487/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "fa8c20409ded7b0023814b81763b95b36745bf9a4286fdcad98e00148339d84f"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_unseen/pick_and_place_simple-PepperShaker-None-Drawer-10/trial_T20190918_154326_823501/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "76a869011fd7ef96954c734fc215b9e6330f706cd8912476302eb98fb0fa25f3"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Knife-None-CounterTop-10/trial_T20190909_110347_624008/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "4e5252bb869042e839df1ebf45debec362aebe61ac07b85efef942fe4de8bb27"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Egg-None-Microwave-10/trial_T20190909_120632_691361/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "36c8915936ebb9ce730e925396cb194d774a9d565e02b7cfcb02c99d4a6b4862"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-424/trial_T20190908_215019_162873/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "2a2144781800bbca04c8dd4fa7e93eb829fc17c1024ce18a3c53baf87d54373a"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_032434_013084/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "ecdaf4ab0782311106f408237f4c2f129ae2db47d0c1f8c9e7b5103bb54c2a37"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Egg-None-Microwave-10/trial_T20190909_120712_273910/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "b5d06ef466c2b1bebe78077cf56808ac7c5c818dcac77e620867e07cdebec493"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Plate-None-CounterTop-10/trial_T20190908_213420_728917/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "b1e92d1fa610421f531b5c2ab9f5ff69da6e77094fdb8049b2a54610eb17637d"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_221208_560499/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "0c01db13a9ab7ea7ed55ed4d695acb6fd90e7ed1547b670efc303d5b296e1771"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Egg-None-Microwave-10/trial_T20190909_120554_888709/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "44befe8cad7615f98e1d75b0a3ef3d7e2f55f831ae49455f819c50c95f18ddd9"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Bread-None-CounterTop-10/trial_T20190908_091747_866951/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "d5569bc3d48e979536f96ffba172d23b473b205041ce947292263a70e95258f6"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Tomato-None-Microwave-10/trial_T20190909_102608_318800/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "e356a71b2a52a05b1d19b3bf8dac2ecccf8e14d522b91cfba33638cc025e4810"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Bread-None-CounterTop-10/trial_T20190908_091835_825830/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "e9e843bda09758241b6dadd045aa79376244a24144f363de57d9ddc488131972"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_114656_768805/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "7431b0965c8f90c6987ed38ea137a9a94b041ad6429161fe252ec182e93a2fd2"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_183853_958104/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "4a802a07a14a180bd8d7c7411f3da2c952dff60aa2c0ab546ec91ed06c4dd651"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Bread-None-CounterTop-10/trial_T20190908_091811_414150/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "9852a9513eafdb2acd34b49d19b17d91fda819f8a0f9095f0c167a0c179e9052"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Tomato-None-Microwave-10/trial_T20190909_102710_795182/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "3cb0b187be862a14dec4b0ff0541b63a7edbe6728114422ba18e15b36c599b03"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Potato-None-Microwave-10/trial_T20190907_033228_194678/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "593a142325a49b60f77633cf7371f2bbd042858f4c6f376c1b56a4097c7a6036"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_021200_669381/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "e9781260ad44198bbb9a2c7907c9fbf057d47b9f284edb4117ff3e2b37fa7ed7"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-Fridge-10/trial_T20190906_182435_622538/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "defddc4e5f510ef68c5972df31fbce22a2a7e9424acbe1377b749daa131d6d03"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_021100_341887/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "01718fd9b21cf50d2bfd5ecfb4fbe5eaff34113cf7e81c163e16b6478f1aa4ff"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-Fridge-10/trial_T20190906_182353_418140/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "14989cd488fb32a82e14f6f66677d698121cc7847bd95196c999c2af03e7bc10"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-GarbageCan-10/trial_T20190908_145050_918567/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "8c9335cf0e7ce258e7f2a9ea90bd4917eabf748d018b796ea291f281065ff70a"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-GarbageCan-10/trial_T20190908_145143_820541/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "33cd58e05b561af1e50356f3a1b94c6857bf57b4aec220d624b459d16955b103"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Potato-None-GarbageCan-10/trial_T20190907_161745_664033/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "7d36ff748b25b1f66ff37497dd2d96e623ae12710338cea36394b3f48c819374"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-Fridge-10/trial_T20190906_182259_116320/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "628da36dec02d2c0634da12af9aa8f733e1dd23a32c4ae288cb2685f38e7c8fc"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_two_obj_and_place",
+      "task_id": "json_2.1.1/valid_unseen/pick_two_obj_and_place-CD-None-Safe-308/trial_T20190907_051056_585414/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "41b83872881dda417ce81fe9c72ad18ce70fd57fc8479f78972197ed346c22a4"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_two_obj_and_place",
+      "task_id": "json_2.1.1/valid_unseen/pick_two_obj_and_place-Pillow-None-Sofa-219/trial_T20190907_163327_486300/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "2f60029dc6b8a3cfb1ddb44e93ac376e2d028dfb96893ed0e43a1c40cbe13b8c"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_two_obj_and_place",
+      "task_id": "json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-GarbageCan-424/trial_T20190909_064053_839817/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "78bc903632973d31f559832307cc248553715c98d6d123a4df7bf3cade6a721a"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_two_obj_and_place",
+      "task_id": "json_2.1.1/valid_unseen/pick_two_obj_and_place-CD-None-Safe-308/trial_T20190907_050942_897916/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "2a437313dc4ca919fe4f134b40dc995f43ebb6336d008117390c77617454c452"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_two_obj_and_place",
+      "task_id": "json_2.1.1/valid_unseen/pick_two_obj_and_place-Pillow-None-Sofa-219/trial_T20190907_163240_345855/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "215014912000dcced6346efa94518a10758f60199786bfa367bc38572bf6470f"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_two_obj_and_place",
+      "task_id": "json_2.1.1/valid_unseen/pick_two_obj_and_place-PepperShaker-None-Drawer-10/trial_T20190908_010306_215435/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "1f25f00f185e667734650951678a7ce4f1280bcf9b23fdec30094fec88226ba1"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_two_obj_and_place",
+      "task_id": "json_2.1.1/valid_unseen/pick_two_obj_and_place-KeyChain-None-Safe-219/trial_T20190909_012027_782483/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "b3d2ce0a6c54ee8af379b9bd58aef58170fb4ff16098601d961289bd916f6d55"
+    },
+    {
+      "environment": "alfworld",
+      "family": "pick_two_obj_and_place",
+      "task_id": "json_2.1.1/valid_unseen/pick_two_obj_and_place-PepperShaker-None-Drawer-10/trial_T20190912_221141_608117/game.tw-pddl",
+      "official_split": "valid_unseen",
+      "compatible_with_original_scope": true,
+      "gamefile_sha256": "095af73c38a770486b9572184d671c7426a24465efdcd1daf3b2210e1e69b015"
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:293",
+      "variation": 293,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:232",
+      "variation": 232,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:253",
+      "variation": 253,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:237",
+      "variation": 237,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:268",
+      "variation": 268,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:266",
+      "variation": 266,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:294",
+      "variation": 294,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:277",
+      "variation": 277,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:292",
+      "variation": 292,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:291",
+      "variation": 291,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:233",
+      "variation": 233,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:269",
+      "variation": 269,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:271",
+      "variation": 271,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:261",
+      "variation": 261,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:284",
+      "variation": 284,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:227",
+      "variation": 227,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:246",
+      "variation": 246,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:289",
+      "variation": 289,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:225",
+      "variation": 225,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:252",
+      "variation": 252,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:296",
+      "variation": 296,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:250",
+      "variation": 250,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:262",
+      "variation": 262,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:282",
+      "variation": 282,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:255",
+      "variation": 255,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:248",
+      "variation": 248,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:276",
+      "variation": 276,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:266",
+      "variation": 266,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:257",
+      "variation": 257,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:247",
+      "variation": 247,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:234",
+      "variation": 234,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:253",
+      "variation": 253,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:537",
+      "variation": 537,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:487",
+      "variation": 487,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:472",
+      "variation": 472,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:431",
+      "variation": 431,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:513",
+      "variation": 513,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:529",
+      "variation": 529,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:438",
+      "variation": 438,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:445",
+      "variation": 445,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:506",
+      "variation": 506,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:526",
+      "variation": 526,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:464",
+      "variation": 464,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:466",
+      "variation": 466,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:410",
+      "variation": 410,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:536",
+      "variation": 536,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:413",
+      "variation": 413,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    },
+    {
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:474",
+      "variation": 474,
+      "official_split": "test",
+      "compatible_with_original_scope": true
+    }
+  ],
+  "original_source_sha256": "e98e6cd716bbeca3825a06641d03dba7a96f300d49af1d35d75665579fdaf5dd",
+  "revision_inputs": {
+    "revisions/23_reserved_confirmation/config.json": "bf4d97997f9c5664e05809e1fab329ce3c759dc390ab0051b0adfa8fbcec7387",
+    "revisions/23_reserved_confirmation/reserved_roster.json": "52f7ece988408143edd6dc9d872f47fcdf8f18ea68616e968a02eec12af9fb18",
+    "revisions/23_reserved_confirmation/freeze_roster.py": "01d1235259131f16df5d93a1e8395090c86ab7353ff9210f66d3c0f96b80367c",
+    "revisions/23_reserved_confirmation/collect_oracles.py": "9a541fe2088cd01945056901d76dceaa1c6c952d1c968b0f1f01771bd5315d41",
+    "revisions/23_reserved_confirmation/audit_confirmation.py": "e8024658e8e0d5df9d9b28e03eca9ec79e6d79e53307c39686edd1e821da0f56",
+    "revisions/23_reserved_confirmation/PROTOCOL.md": "ee148a63aba532765e33a39aa54d6835ff4b28f661a2ba02b34c51e56fd7baa3",
+    "revisions/22_predicate_impact_testing/results/selection_analysis/completion.json": "d1fdd96ba462d2a8d809203414f4087120ed9c4189a37ffa4bff4bafcf0afb9e",
+    "research/validation/exposure_snapshot_20260905.json": "e5045c555cb6fc580367fb2c8db0754a2d722de80a902c82ddbc5a66aae4980f",
+    "research/validation/vendor/scienceworld-e8216d6.jar": "e77b0fee7d68abe3ca5b12e57d86e2bfe7603f20c5200da0b0f085939faeb465",
+    "src/skilllineage/interactive_envs.py": "bf31cb3078dee54c7c96c2425a44103c846b02d127b37323fc90bac91b7706a4",
+    "revisions/04_state_matched_execution/state_check.py": "eec45388ea6e5bbd949f1f41980a093d467be01e68ca8da9becc45b985fbe65e",
+    "revisions/07_executor_search/run_preflight.py": "00279fac304a8e0e4ba1ae82b658b85c2d0762ff5fc6158dce0f62e6e1f7cad5"
+  }
+}

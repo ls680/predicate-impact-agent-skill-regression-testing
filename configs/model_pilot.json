@@ -1,0 +1,12 @@
+{
+  "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+  "model_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "output_dir": "experiments/runs/model_pilot_qwen3_4b_final",
+  "cases_path": "data/raw/model_pilot_cases.json",
+  "chains_per_case": 2,
+  "depth": 4,
+  "seed": 20260904,
+  "max_new_tokens": 240,
+  "base_success": 0.32,
+  "local_files_only": false
+}

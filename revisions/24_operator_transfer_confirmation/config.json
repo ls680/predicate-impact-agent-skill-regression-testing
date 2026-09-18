@@ -1,0 +1,65 @@
+{
+  "status": "independent_operator_transfer_confirmation",
+  "confirmation_gate": "revisions/23_reserved_confirmation/results/selection_analysis/completion.json",
+  "development_gate": "revisions/22_predicate_impact_testing/results/selection_analysis/completion.json",
+  "exposure_snapshot": "research/validation/exposure_snapshot_20260905.json",
+  "previous_roster": "revisions/23_reserved_confirmation/reserved_roster.json",
+  "roster_output": "revisions/24_operator_transfer_confirmation/reserved_roster.json",
+  "selection_seed": "skilllineage-r24-operator-transfer-20260906",
+  "selection_counts": {
+    "alfworld": {
+      "look_at_obj_in_light": 1,
+      "pick_and_place_simple": 7,
+      "pick_clean_then_place_in_recep": 14,
+      "pick_cool_then_place_in_recep": 4,
+      "pick_heat_then_place_in_recep": 6
+    },
+    "scienceworld": {
+      "find-living-thing": 12,
+      "find-non-living-thing": 12,
+      "use-thermometer": 12
+    }
+  },
+  "expected_tasks": {"alfworld": 32, "scienceworld": 36},
+  "scienceworld_jar": "research/validation/vendor/scienceworld-e8216d6.jar",
+  "max_steps": {"alfworld": 120, "scienceworld": 160},
+  "oracle_output": "revisions/24_operator_transfer_confirmation/results/reserved_oracles",
+  "spec_output": "revisions/24_operator_transfer_confirmation/operator_specs.json",
+  "mutation_output": "revisions/24_operator_transfer_confirmation/results/native_mutations",
+  "selection_output": "revisions/24_operator_transfer_confirmation/results/selection_analysis",
+  "minimum_family_support": 1,
+  "maximum_family_support_fraction": 0.5,
+  "maximum_singleton_specs_per_family_and_kind": 1,
+  "maximum_multitask_specs_per_family_and_kind": 4,
+  "operators": [
+    "delete_action",
+    "same_kind_argument_substitution",
+    "adjacent_order_swap"
+  ],
+  "selection_methods": [
+    "predicate_impact",
+    "family_predicate_random",
+    "skill_family_random",
+    "random",
+    "family_stratified",
+    "lexical_similarity",
+    "shortest_first",
+    "oracle_upper_bound"
+  ],
+  "random_seeds": 200,
+  "task_budgets": [1, 2, 3, 5, 10, 20],
+  "estimated_step_budgets": [25, 50, 100, 250, 500],
+  "primary_task_budget": 3,
+  "robustness_gate": {
+    "minimum_detectable_operator_specs": 30,
+    "minimum_operator_classes": 3,
+    "minimum_environments": 2,
+    "minimum_skill_families": 6,
+    "minimum_predicate_impact_detection_rate": 0.75,
+    "minimum_absolute_lift_over_skill_family_random": 0.15,
+    "maximum_conditional_randomization_p": 0.01,
+    "minimum_specs_per_operator": 6,
+    "minimum_each_operator_detection_rate": 0.65,
+    "minimum_each_operator_absolute_lift": 0.10
+  }
+}

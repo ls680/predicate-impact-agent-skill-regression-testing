@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "predicate_specs": 77,
+  "actual_native_replays": 147,
+  "eligible_healthy_tasks": 98,
+  "inferred_identical_no_ops": 592,
+  "killed_pairs": 139,
+  "detectable_specs": 72,
+  "technical_failures_counted_as_kills": 0,
+  "initial_state_exact_matches": 147,
+  "by_environment": {
+    "alfworld": 36,
+    "scienceworld": 111
+  },
+  "reserved_tasks_accessed": 0,
+  "outcomes_sha256": "3775989396999975e1abc49543409aa05020c7acc3c3843509a6d462f50ccb2b"
+}

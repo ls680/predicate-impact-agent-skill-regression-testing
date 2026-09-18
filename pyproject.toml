@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skilllineage"
+version = "0.1.0"
+description = "Predicate-level regression test selection for evolving LLM agent skills"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "matplotlib>=3.8,<4",
+  "numpy>=1.26,<3",
+  "pandas>=2.2,<3",
+  "scipy>=1.11,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+model = [
+  "accelerate>=1.0,<2",
+  "safetensors>=0.4,<1",
+  "sentencepiece>=0.2,<1",
+  "transformers>=4.55,<5",
+  "json-repair==0.63.4",
+]
+interactive = [
+  "alfworld==0.4.2",
+  "scienceworld==1.2.3",
+  "textworld==1.7.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

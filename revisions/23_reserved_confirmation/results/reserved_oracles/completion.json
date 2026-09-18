@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "tasks": 96,
+  "successful_references": 91,
+  "failed_references": 5,
+  "by_environment": {
+    "alfworld": 48,
+    "scienceworld": 48
+  },
+  "by_environment_success": {
+    "alfworld": 43,
+    "scienceworld": 48
+  },
+  "by_family_success": {
+    "alfworld/look_at_obj_in_light": 8,
+    "alfworld/pick_and_place_simple": 8,
+    "alfworld/pick_clean_then_place_in_recep": 8,
+    "alfworld/pick_cool_then_place_in_recep": 8,
+    "alfworld/pick_heat_then_place_in_recep": 8,
+    "alfworld/pick_two_obj_and_place": 3,
+    "scienceworld/find-living-thing": 16,
+    "scienceworld/find-non-living-thing": 16,
+    "scienceworld/use-thermometer": 16
+  },
+  "unlisted_reference_actions": 272,
+  "reserved_tasks_accessed": 96,
+  "trajectories_sha256": "6581a6244fe6fb9c410922f3eef239774e6f2dcf0aaf0188e0aa5420e22c9cb4"
+}

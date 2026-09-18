@@ -1,0 +1,19 @@
+{
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+  "model_revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+  "model_short_name": "mistral_7b",
+  "manifest_path": "data/processed/interactive_manifest.json",
+  "families_path": "data/raw/interactive_families.json",
+  "output_dir": "experiments/runs/interactive_mistral_7b_final",
+  "lineage_depth": 3,
+  "parent_influence": 0.65,
+  "screening_threshold": 0.55,
+  "semantic_threshold": 0.22,
+  "max_new_tokens_skill": 512,
+  "max_new_tokens_action": 24,
+  "history_turns": 6,
+  "alfworld_max_steps": 35,
+  "scienceworld_max_steps": 40,
+  "seed": 20260904,
+  "local_files_only": true
+}

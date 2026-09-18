@@ -1,0 +1,20 @@
+{
+  "status": "public_repository_snapshots_frozen_after_r24_operators",
+  "repositories": [
+    {
+      "name": "anthropics-skills",
+      "url": "https://github.com/anthropics/skills.git",
+      "commit": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f"
+    },
+    {
+      "name": "openai-skills",
+      "url": "https://github.com/openai/skills.git",
+      "commit": "49f948faa9258a0c61caceaf225e179651397431"
+    },
+    {
+      "name": "microsoftdocs-agent-skills",
+      "url": "https://github.com/MicrosoftDocs/Agent-Skills.git",
+      "commit": "9fc50b0c233eb802759ced1a8da138c03a0a2d38"
+    }
+  ]
+}

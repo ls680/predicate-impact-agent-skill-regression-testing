@@ -1,0 +1,4 @@
+operator,detectable_specs,detected,detection_rate,skill_family_random_expected_rate,absolute_lift_over_skill_family_random,predicate_coverage_random_expected_rate,absolute_lift_over_predicate_coverage_random,conditional_randomization_p_one_sided
+delete_action,58,58,1.0,0.5745297805642631,0.42547021943573693,1.0,0.0,6.216307393149034e-17
+same_kind_argument_substitution,39,39,1.0,0.5120225927918235,0.4879774072081765,1.0,0.0,1.1521636042437363e-13
+adjacent_order_swap,18,18,1.0,0.5961843711843712,0.4038156288156288,1.0,0.0,1.1573943530263266e-05

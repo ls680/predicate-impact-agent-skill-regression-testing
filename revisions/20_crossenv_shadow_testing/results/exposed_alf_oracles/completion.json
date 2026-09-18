@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "tasks": 30,
+  "successful_references": 27,
+  "failed_references": 3,
+  "by_family_success": {
+    "pick_and_place_simple": 5,
+    "pick_clean_then_place_in_recep": 5,
+    "pick_heat_then_place_in_recep": 5,
+    "pick_cool_then_place_in_recep": 5,
+    "look_at_obj_in_light": 5,
+    "pick_two_obj_and_place": 2
+  },
+  "unlisted_expert_actions": 0,
+  "reserved_tasks_accessed": 0,
+  "trajectories_sha256": "153909e642ba047679a317e1bb3ab1bb9c9172561448d07afed2217e10f17a36"
+}

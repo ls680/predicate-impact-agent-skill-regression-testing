@@ -1,0 +1,89 @@
+{
+  "status": "completed",
+  "scope": "independent_operator_transfer_confirmation",
+  "operator_specs": 141,
+  "detectable_operator_specs": 115,
+  "detectable_skill_families": 8,
+  "primary_task_budget": 3,
+  "overall": {
+    "detectable_specs": 115,
+    "detected": 115,
+    "detection_rate": 1.0,
+    "skill_family_random_expected_rate": 0.556721104981974,
+    "absolute_lift_over_skill_family_random": 0.443278895018026,
+    "predicate_coverage_random_expected_rate": 1.0,
+    "absolute_lift_over_predicate_coverage_random": 0.0,
+    "conditional_randomization_p_one_sided": 8.289493459252406e-35
+  },
+  "by_environment": {
+    "alfworld": {
+      "detectable_specs": 60,
+      "detected": 60,
+      "detection_rate": 1.0,
+      "skill_family_random_expected_rate": 0.6404578754578752,
+      "absolute_lift_over_skill_family_random": 0.35954212454212475,
+      "predicate_coverage_random_expected_rate": 1.0,
+      "absolute_lift_over_predicate_coverage_random": 0.0,
+      "conditional_randomization_p_one_sided": 9.0108952860815e-15
+    },
+    "scienceworld": {
+      "detectable_specs": 55,
+      "detected": 55,
+      "detection_rate": 1.0,
+      "skill_family_random_expected_rate": 0.46537190082644614,
+      "absolute_lift_over_skill_family_random": 0.5346280991735539,
+      "predicate_coverage_random_expected_rate": 1.0,
+      "absolute_lift_over_predicate_coverage_random": 0.0,
+      "conditional_randomization_p_one_sided": 9.199411596821687e-21
+    }
+  },
+  "by_operator": {
+    "delete_action": {
+      "detectable_specs": 58,
+      "detected": 58,
+      "detection_rate": 1.0,
+      "skill_family_random_expected_rate": 0.5745297805642631,
+      "absolute_lift_over_skill_family_random": 0.42547021943573693,
+      "predicate_coverage_random_expected_rate": 1.0,
+      "absolute_lift_over_predicate_coverage_random": 0.0,
+      "conditional_randomization_p_one_sided": 6.216307393149034e-17
+    },
+    "same_kind_argument_substitution": {
+      "detectable_specs": 39,
+      "detected": 39,
+      "detection_rate": 1.0,
+      "skill_family_random_expected_rate": 0.5120225927918235,
+      "absolute_lift_over_skill_family_random": 0.4879774072081765,
+      "predicate_coverage_random_expected_rate": 1.0,
+      "absolute_lift_over_predicate_coverage_random": 0.0,
+      "conditional_randomization_p_one_sided": 1.1521636042437363e-13
+    },
+    "adjacent_order_swap": {
+      "detectable_specs": 18,
+      "detected": 18,
+      "detection_rate": 1.0,
+      "skill_family_random_expected_rate": 0.5961843711843712,
+      "absolute_lift_over_skill_family_random": 0.4038156288156288,
+      "predicate_coverage_random_expected_rate": 1.0,
+      "absolute_lift_over_predicate_coverage_random": 0.0,
+      "conditional_randomization_p_one_sided": 1.1573943530263266e-05
+    }
+  },
+  "robustness_gate_checks": {
+    "minimum_detectable_operator_specs": true,
+    "minimum_operator_classes": true,
+    "minimum_environments": true,
+    "minimum_skill_families": true,
+    "minimum_predicate_impact_detection_rate": true,
+    "minimum_absolute_lift_over_skill_family_random": true,
+    "maximum_conditional_randomization_p": true,
+    "minimum_specs_per_operator": true,
+    "minimum_each_operator_detection_rate": true,
+    "minimum_each_operator_absolute_lift": true
+  },
+  "robustness_gate_passed": true,
+  "claim_scope": "confirmed_across_three_frozen_mutation_operators",
+  "population_generalization_claim_permitted": false,
+  "reserved_tasks_accessed": 68,
+  "evaluations_sha256": "2221811c5dc857c014bfa749cab49c18d2bd4fad6f690f1c1c28934c6935fe67"
+}

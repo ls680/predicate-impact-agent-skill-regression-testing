@@ -1,0 +1,7 @@
+{
+  "all_input_hashes_match": true,
+  "original_source_unchanged": true,
+  "no_reserved_tests_executed": true,
+  "checked_revision_inputs": 7,
+  "run": "revisions/20_crossenv_shadow_testing/results/exposed_alf_oracles"
+}

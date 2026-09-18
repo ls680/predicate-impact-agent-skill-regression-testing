@@ -1,0 +1,19 @@
+{
+  "model_id": "microsoft/Phi-4-mini-instruct",
+  "model_revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "model_short_name": "phi4_mini",
+  "manifest_path": "data/processed/interactive_manifest.json",
+  "families_path": "data/raw/interactive_families.json",
+  "output_dir": "experiments/runs/interactive_phi4_mini_final",
+  "lineage_depth": 3,
+  "parent_influence": 0.65,
+  "screening_threshold": 0.55,
+  "semantic_threshold": 0.22,
+  "max_new_tokens_skill": 512,
+  "max_new_tokens_action": 24,
+  "history_turns": 6,
+  "alfworld_max_steps": 35,
+  "scienceworld_max_steps": 40,
+  "seed": 20260904,
+  "local_files_only": true
+}

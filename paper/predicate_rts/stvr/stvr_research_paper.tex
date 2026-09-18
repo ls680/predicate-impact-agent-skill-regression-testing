@@ -1,0 +1,82 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper,margin=25mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Termes}
+\usepackage{amsmath,booktabs,graphicx,microtype,url,xurl}
+\usepackage{unicode-math}
+\setmathfont{TeX Gyre Termes Math}
+\usepackage[section]{placeins}
+\usepackage[hidelinks]{hyperref}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{docmute}
+\usepackage{xparse}
+\setlength{\emergencystretch}{2em}
+\graphicspath{{../../../results/figures/}}
+\input{../../regression_results_macros.tex}
+\input{stvr_metadata.tex}
+
+\hypersetup{
+  pdftitle={\STVRArticleTitle},
+  pdfauthor={Author details to be confirmed},
+  pdfsubject={Research Paper submitted to Software Testing, Verification and Reliability},
+  pdfkeywords={LLM agents, agent skills, regression test selection, change-impact analysis, dynamic coverage, mutation testing}
+}
+
+\title{\STVRArticleTitle}
+\author{\STVRAuthorNames}
+\date{}
+
+\renewcommand{\maketitle}{%
+  \hypersetup{pageanchor=false}%
+  \begin{titlepage}
+    \centering
+    {\Large\bfseries \STVRArticleTitle\par}
+    \vspace{1.2cm}
+    {\large \STVRAuthorNames\par}
+    \vspace{0.8cm}
+    {\STVRAffiliations\par}
+    \vspace{1.2cm}
+    \begin{minipage}{0.88\textwidth}
+      \setlength{\parskip}{0.6em}
+      \textbf{Correspondence:} \STVRCorrespondence
+
+      \textbf{Short running title:} \STVRRunningTitle
+
+      \textbf{Article type:} \STVRArticleType
+
+      \textbf{Target journal:} \STVRTargetJournal
+
+      \textbf{Statements and declarations:} Acknowledgements, author
+      contributions, funding, competing interests, data availability, ethics,
+      consent, and generative-AI assistance are reported after the references.
+    \end{minipage}
+    \vfill
+    {Prepared for initial free-format submission, September 2026\par}
+  \end{titlepage}
+  \hypersetup{pageanchor=true}%
+  \setcounter{page}{1}%
+  \markboth{\STVRRunningTitle}{\STVRRunningTitle}
+}
+
+% The source English manuscript remains unchanged. This environment discards
+% its original 263-word abstract and emits the STVR-compliant abstract instead.
+\RenewDocumentEnvironment{abstract}{+b}{%
+  \begin{center}\bfseries Abstract\end{center}
+  \begin{quotation}
+    \noindent\input{stvr_abstract.tex}
+  \end{quotation}
+}{}
+
+% STVR places acknowledgements and declaration material after the references
+% and before any appendices.
+\let\STVROriginalBibliography\bibliography
+\renewcommand{\bibliography}[1]{%
+  \STVROriginalBibliography{#1}%
+  \input{stvr_declarations.tex}%
+}
+
+\begin{document}
+\pagestyle{myheadings}
+\sloppy
+\input{../en/main.tex}
+\end{document}

@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "tasks": 78,
+  "successful_references": 71,
+  "failed_references": 7,
+  "by_split": {
+    "exposed_dev": 30,
+    "exposed_test": 48
+  },
+  "by_family_success": {
+    "boil": 11,
+    "melt": 11,
+    "freeze": 10,
+    "use-thermometer": 13,
+    "find-living-thing": 13,
+    "find-non-living-thing": 13
+  },
+  "unlisted_gold_actions": 2042,
+  "reserved_tasks_accessed": 0,
+  "trajectories_sha256": "b3ddf3cb7326843a3163d989d4a9e042810f4aba9fb6cb23006fd9a1dfe25f51"
+}

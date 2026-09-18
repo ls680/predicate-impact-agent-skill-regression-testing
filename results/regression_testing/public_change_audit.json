@@ -1,0 +1,54 @@
+{
+  "status": "completed",
+  "snapshot_timing": "public_repository_snapshots_frozen_after_r24_operators",
+  "repositories": 3,
+  "mainline_commits_traversed": {
+    "anthropics-skills": 54,
+    "openai-skills": 114,
+    "microsoftdocs-agent-skills": 97
+  },
+  "modified_skill_file_edits": 4058,
+  "repositories_with_modified_skill_files": 3,
+  "category_file_edit_counts": {
+    "deletion_present": 4037,
+    "mixed_replacement_hunk": 4028,
+    "similar_line_replacement_candidate": 3835,
+    "line_relocation_candidate": 665
+  },
+  "by_repository": {
+    "anthropics-skills": {
+      "modified_skill_file_edits": 37,
+      "commits_with_modified_skill_files": 29,
+      "category_file_edit_counts": {
+        "deletion_present": 35,
+        "mixed_replacement_hunk": 35,
+        "similar_line_replacement_candidate": 33,
+        "line_relocation_candidate": 15
+      }
+    },
+    "openai-skills": {
+      "modified_skill_file_edits": 69,
+      "commits_with_modified_skill_files": 41,
+      "category_file_edit_counts": {
+        "deletion_present": 52,
+        "mixed_replacement_hunk": 51,
+        "similar_line_replacement_candidate": 47,
+        "line_relocation_candidate": 10
+      }
+    },
+    "microsoftdocs-agent-skills": {
+      "modified_skill_file_edits": 3952,
+      "commits_with_modified_skill_files": 50,
+      "category_file_edit_counts": {
+        "deletion_present": 3950,
+        "mixed_replacement_hunk": 3942,
+        "similar_line_replacement_candidate": 3755,
+        "line_relocation_candidate": 640
+      }
+    }
+  },
+  "category_scope_warning": "Heuristic structural candidates; not semantic ground truth.",
+  "r24_operators_changed_after_audit": false,
+  "config_sha256": "07c5f23dfc06108469362192e60ae86433c7b86be41a89d292e377f66ea81815",
+  "table_sha256": "8645698fb43023b99ef82b1cacd40430919ff99ee364b1857c7178b09bf17a9b"
+}

@@ -1,0 +1,7 @@
+dataset,stratum,detectable_specs,false_negative_rate,false_positive_rate,mean_detection_rate,simulation_q025,simulation_q975,skill_family_random_expected_rate,mean_absolute_lift,proportion_simulations_with_positive_lift
+r23_deletion_confirmation,overall,64,0.0,0.0,1.0,1.0,1.0,0.5560546875,0.4439453125,1.0
+r23_deletion_confirmation,overall,64,0.2,0.1,0.94784375,0.890625,1.0,0.5560546875,0.3917890625,1.0
+r23_deletion_confirmation,overall,64,0.5,0.2,0.7695,0.671875,0.859375,0.5560546875,0.21344531249999998,1.0
+r24_operator_transfer,overall,115,0.0,0.0,1.0,1.0,1.0,0.556721104981974,0.443278895018026,1.0
+r24_operator_transfer,overall,115,0.2,0.1,0.9257565217391338,0.8782608695652174,0.9652173913043478,0.556721104981974,0.3690354167571598,1.0
+r24_operator_transfer,overall,115,0.5,0.2,0.7358434782608727,0.665,0.8,0.556721104981974,0.17912237327889868,1.0

@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "operator_specs": 141,
+  "actual_native_replays": 306,
+  "killed_pairs": 240,
+  "detectable_specs": 115,
+  "technical_failures_counted_as_kills": 0,
+  "initial_state_exact_matches": 306,
+  "by_environment": {
+    "alfworld": 153,
+    "scienceworld": 153
+  },
+  "by_operator": {
+    "delete_action": 141,
+    "adjacent_order_swap": 78,
+    "same_kind_argument_substitution": 87
+  },
+  "reserved_tasks_accessed": 68,
+  "outcomes_sha256": "6ef2aa349e7c4894896f6e97a8d31ddf8a5ed0864eeffb82caa6a4056a858df1"
+}

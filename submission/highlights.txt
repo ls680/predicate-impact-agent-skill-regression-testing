@@ -1,0 +1,5 @@
+Predicate-level coverage prioritizes regression tests for evolving Agent Skills.
+Two disjoint ALFWorld/ScienceWorld rosters confirm about 44-point detection lifts.
+Deletion, argument substitution, and adjacent-order swap all pass frozen gates.
+Exact-coverage random ties the method, locating the gain in coverage granularity.
+The artifact releases frozen protocols, native traces, hashes, tests, and bilingual PDFs.

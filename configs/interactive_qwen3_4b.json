@@ -1,0 +1,19 @@
+{
+  "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+  "model_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "model_short_name": "qwen3_4b",
+  "manifest_path": "data/processed/interactive_manifest.json",
+  "families_path": "data/raw/interactive_families.json",
+  "output_dir": "experiments/runs/interactive_qwen3_4b_final",
+  "lineage_depth": 3,
+  "parent_influence": 0.65,
+  "screening_threshold": 0.55,
+  "semantic_threshold": 0.22,
+  "max_new_tokens_skill": 512,
+  "max_new_tokens_action": 24,
+  "history_turns": 6,
+  "alfworld_max_steps": 35,
+  "scienceworld_max_steps": 40,
+  "seed": 20260904,
+  "local_files_only": true
+}

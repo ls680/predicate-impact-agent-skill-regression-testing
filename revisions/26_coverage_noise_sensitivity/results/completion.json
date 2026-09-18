@@ -1,0 +1,30 @@
+{
+  "status": "completed",
+  "scope": "coverage_noise_grid_fixed_during_r24_after_partial_outcomes",
+  "datasets": [
+    "r23_deletion_confirmation",
+    "r24_operator_transfer"
+  ],
+  "grid_points_per_stratum": 20,
+  "seeds_per_grid_point": 500,
+  "task_budget": 3,
+  "input_sha256": {
+    "revisions/26_coverage_noise_sensitivity/config.json": "08be0f423e2de04df3426685f89d1abcd123b8214012ad4676d0267762b402f9",
+    "revisions/26_coverage_noise_sensitivity/PROTOCOL.md": "c10c90dffb7ac540e3a122600cc74aae777cb800a01eb2a7567ae19f309b6dc4",
+    "revisions/26_coverage_noise_sensitivity/analyze.py": "2f8a760cc56ad5ad777df646043e635a684142f5376d2411153ad86586d84fe0",
+    "revisions/22_predicate_impact_testing/selection_methods.py": "cc24333fb3ab2c542fbe3f99d209c68c0b0aada4e4b92d52d6955114e09bfa7b",
+    "revisions/22_predicate_impact_testing/atoms.py": "f98349a66b34003f33a5b05ea31ce2601d538b21b5e1b427a7bd2e29cbd5e6a4",
+    "revisions/23_reserved_confirmation/predicate_specs.json": "230347f664e2d2d90e01d269bb2428bde57ce6dc082579f7af7353a1ec1f0a95",
+    "revisions/23_reserved_confirmation/results/reserved_oracles/completion.json": "842a5006054d163b97f0202555524820fa2f4f8eb6fbe3aed07fe62a8fc3fcb2",
+    "revisions/23_reserved_confirmation/results/reserved_oracles/trajectories.jsonl": "6581a6244fe6fb9c410922f3eef239774e6f2dcf0aaf0188e0aa5420e22c9cb4",
+    "revisions/23_reserved_confirmation/results/native_mutations/completion.json": "55c4e693f816d1572bb6d05e8b07d76552a92dd4075e35c874bb35c232d6d097",
+    "revisions/23_reserved_confirmation/results/native_mutations/outcomes.jsonl": "3e45c65e2730a3283f15ed05b1e9fb0bba5add5c8294589f72334423537bb26b",
+    "revisions/24_operator_transfer_confirmation/operator_specs.json": "4e98ea2f82bfb40789300f12a4b52b80a5d4d488921dd61588d1de95ed7b8be2",
+    "revisions/24_operator_transfer_confirmation/results/reserved_oracles/completion.json": "ed4257aa83f4d3bf4cdafc5eed69950bb28357af8c80ba8c6b5686f6303625a5",
+    "revisions/24_operator_transfer_confirmation/results/reserved_oracles/trajectories.jsonl": "2be8b5f6fea6cb57384aca7f795c5628eef1dc5038eb69287a0155fac82e89c5",
+    "revisions/24_operator_transfer_confirmation/results/native_mutations/completion.json": "3b76dfa900d156c032ea21a796aa6a87979fde84ce6db26d2305aa84ff9d031e",
+    "revisions/24_operator_transfer_confirmation/results/native_mutations/outcomes.jsonl": "6ef2aa349e7c4894896f6e97a8d31ddf8a5ed0864eeffb82caa6a4056a858df1"
+  },
+  "table_sha256": "789460daf735fe21fd435c158a59d9aaa5fa47a09f0a495fd6bfa1740fd83547",
+  "inference_warning": "Quantiles describe simulated coverage corruption, not population uncertainty."
+}

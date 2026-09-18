@@ -1,0 +1,15 @@
+torch==2.8.0
+--extra-index-url https://download.pytorch.org/whl/cu128
+transformers>=4.55,<5
+accelerate>=1.0,<2
+safetensors>=0.4,<1
+sentencepiece>=0.2,<1
+json-repair==0.63.4
+matplotlib>=3.8,<4
+numpy>=1.26,<3
+pandas>=2.2,<3
+scipy>=1.11,<2
+pytest>=8,<9
+alfworld==0.4.2
+scienceworld==1.2.3
+textworld==1.7.0

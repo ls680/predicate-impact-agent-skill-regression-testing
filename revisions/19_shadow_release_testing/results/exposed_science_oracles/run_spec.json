@@ -1,0 +1,653 @@
+{
+  "status": "exposed_development_oracle_collection_for_mutation_testing",
+  "config": {
+    "status": "exposed_development_oracle_collection_for_mutation_testing",
+    "output_dir": "revisions/19_shadow_release_testing/results/exposed_science_oracles",
+    "manifest": "data/processed/interactive_manifest.json",
+    "exposure_snapshot": "research/validation/exposure_snapshot_20260905.json",
+    "scienceworld_jar": "research/validation/vendor/scienceworld-e8216d6.jar",
+    "source_splits": [
+      "dev",
+      "test"
+    ],
+    "expected_tasks": 78,
+    "max_steps": 160
+  },
+  "tasks": [
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "boil:16",
+      "family": "boil",
+      "variation": 16,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "boil:15",
+      "family": "boil",
+      "variation": 15,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "boil:20",
+      "family": "boil",
+      "variation": 20,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "boil:18",
+      "family": "boil",
+      "variation": 18,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "boil:14",
+      "family": "boil",
+      "variation": 14,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "melt:19",
+      "family": "melt",
+      "variation": 19,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "melt:18",
+      "family": "melt",
+      "variation": 18,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "melt:15",
+      "family": "melt",
+      "variation": 15,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "melt:17",
+      "family": "melt",
+      "variation": 17,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "melt:20",
+      "family": "melt",
+      "variation": 20,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "freeze:19",
+      "family": "freeze",
+      "variation": 19,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "freeze:17",
+      "family": "freeze",
+      "variation": 17,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "freeze:20",
+      "family": "freeze",
+      "variation": 20,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "freeze:18",
+      "family": "freeze",
+      "variation": 18,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "freeze:14",
+      "family": "freeze",
+      "variation": 14,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "use-thermometer:398",
+      "family": "use-thermometer",
+      "variation": 398,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "use-thermometer:382",
+      "family": "use-thermometer",
+      "variation": 382,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "use-thermometer:309",
+      "family": "use-thermometer",
+      "variation": 309,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "use-thermometer:345",
+      "family": "use-thermometer",
+      "variation": 345,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "use-thermometer:367",
+      "family": "use-thermometer",
+      "variation": 367,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "find-living-thing:197",
+      "family": "find-living-thing",
+      "variation": 197,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "find-living-thing:168",
+      "family": "find-living-thing",
+      "variation": 168,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "find-living-thing:182",
+      "family": "find-living-thing",
+      "variation": 182,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "find-living-thing:163",
+      "family": "find-living-thing",
+      "variation": 163,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "find-living-thing:209",
+      "family": "find-living-thing",
+      "variation": 209,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "find-non-living-thing:220",
+      "family": "find-non-living-thing",
+      "variation": 220,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "find-non-living-thing:188",
+      "family": "find-non-living-thing",
+      "variation": 188,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "find-non-living-thing:175",
+      "family": "find-non-living-thing",
+      "variation": 175,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "find-non-living-thing:169",
+      "family": "find-non-living-thing",
+      "variation": 169,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_dev",
+      "task_id": "find-non-living-thing:204",
+      "family": "find-non-living-thing",
+      "variation": 204,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "boil:23",
+      "family": "boil",
+      "variation": 23,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "boil:22",
+      "family": "boil",
+      "variation": 22,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "boil:26",
+      "family": "boil",
+      "variation": 26,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "boil:29",
+      "family": "boil",
+      "variation": 29,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "boil:24",
+      "family": "boil",
+      "variation": 24,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "boil:21",
+      "family": "boil",
+      "variation": 21,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "boil:28",
+      "family": "boil",
+      "variation": 28,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "boil:27",
+      "family": "boil",
+      "variation": 27,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "melt:22",
+      "family": "melt",
+      "variation": 22,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "melt:21",
+      "family": "melt",
+      "variation": 21,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "melt:25",
+      "family": "melt",
+      "variation": 25,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "melt:27",
+      "family": "melt",
+      "variation": 27,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "melt:26",
+      "family": "melt",
+      "variation": 26,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "melt:29",
+      "family": "melt",
+      "variation": 29,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "melt:23",
+      "family": "melt",
+      "variation": 23,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "melt:24",
+      "family": "melt",
+      "variation": 24,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "freeze:26",
+      "family": "freeze",
+      "variation": 26,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "freeze:25",
+      "family": "freeze",
+      "variation": 25,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "freeze:24",
+      "family": "freeze",
+      "variation": 24,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "freeze:21",
+      "family": "freeze",
+      "variation": 21,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "freeze:29",
+      "family": "freeze",
+      "variation": 29,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "freeze:22",
+      "family": "freeze",
+      "variation": 22,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "freeze:28",
+      "family": "freeze",
+      "variation": 28,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "freeze:23",
+      "family": "freeze",
+      "variation": 23,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "use-thermometer:514",
+      "family": "use-thermometer",
+      "variation": 514,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "use-thermometer:426",
+      "family": "use-thermometer",
+      "variation": 426,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "use-thermometer:505",
+      "family": "use-thermometer",
+      "variation": 505,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "use-thermometer:450",
+      "family": "use-thermometer",
+      "variation": 450,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "use-thermometer:499",
+      "family": "use-thermometer",
+      "variation": 499,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "use-thermometer:463",
+      "family": "use-thermometer",
+      "variation": 463,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "use-thermometer:422",
+      "family": "use-thermometer",
+      "variation": 422,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "use-thermometer:498",
+      "family": "use-thermometer",
+      "variation": 498,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "find-living-thing:282",
+      "family": "find-living-thing",
+      "variation": 282,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "find-living-thing:275",
+      "family": "find-living-thing",
+      "variation": 275,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "find-living-thing:272",
+      "family": "find-living-thing",
+      "variation": 272,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "find-living-thing:238",
+      "family": "find-living-thing",
+      "variation": 238,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "find-living-thing:270",
+      "family": "find-living-thing",
+      "variation": 270,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "find-living-thing:278",
+      "family": "find-living-thing",
+      "variation": 278,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "find-living-thing:255",
+      "family": "find-living-thing",
+      "variation": 255,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "find-living-thing:257",
+      "family": "find-living-thing",
+      "variation": 257,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "find-non-living-thing:230",
+      "family": "find-non-living-thing",
+      "variation": 230,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "find-non-living-thing:286",
+      "family": "find-non-living-thing",
+      "variation": 286,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "find-non-living-thing:227",
+      "family": "find-non-living-thing",
+      "variation": 227,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "find-non-living-thing:228",
+      "family": "find-non-living-thing",
+      "variation": 228,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "find-non-living-thing:287",
+      "family": "find-non-living-thing",
+      "variation": 287,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "find-non-living-thing:231",
+      "family": "find-non-living-thing",
+      "variation": 231,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "find-non-living-thing:260",
+      "family": "find-non-living-thing",
+      "variation": 260,
+      "simplifications": "easy"
+    },
+    {
+      "environment": "scienceworld",
+      "split": "exposed_test",
+      "task_id": "find-non-living-thing:239",
+      "family": "find-non-living-thing",
+      "variation": 239,
+      "simplifications": "easy"
+    }
+  ],
+  "original_source_sha256": "e98e6cd716bbeca3825a06641d03dba7a96f300d49af1d35d75665579fdaf5dd",
+  "revision_inputs": {
+    "revisions/19_shadow_release_testing/config.json": "d1a2a1a20b7416d12b779e2b94d50cf6a5e6decbbc924512a89e4f6e933ce24d",
+    "revisions/19_shadow_release_testing/collect_exposed_oracles.py": "d7363d2b2ece0726174369fd35f87b0298aa6b86b2f94f68dd188c607866ce67",
+    "revisions/19_shadow_release_testing/PROTOCOL.md": "62eb00f42f8e0ff25d2cf13d0f990a02d09ccd3637b66b8039b37c600da3bd8a",
+    "data/processed/interactive_manifest.json": "9a17e166c91ce55c4b7a01ea31f0fba9347819227e634ac2b226d675ab8192b8",
+    "research/validation/exposure_snapshot_20260905.json": "e5045c555cb6fc580367fb2c8db0754a2d722de80a902c82ddbc5a66aae4980f",
+    "research/validation/vendor/scienceworld-e8216d6.jar": "e77b0fee7d68abe3ca5b12e57d86e2bfe7603f20c5200da0b0f085939faeb465",
+    "revisions/04_state_matched_execution/state_check.py": "eec45388ea6e5bbd949f1f41980a093d467be01e68ca8da9becc45b985fbe65e",
+    "revisions/07_executor_search/run_preflight.py": "00279fac304a8e0e4ba1ae82b658b85c2d0762ff5fc6158dce0f62e6e1f7cad5"
+  }
+}

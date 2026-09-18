@@ -1,0 +1,41 @@
+{
+  "status": "preoutcome_frozen_sparse_predicate_mutation_development",
+  "healthy_runs": {
+    "scienceworld": "revisions/19_shadow_release_testing/results/exposed_science_oracles",
+    "alfworld": "revisions/20_crossenv_shadow_testing/results/exposed_alf_oracles"
+  },
+  "expected_tasks": {"scienceworld": 78, "alfworld": 30},
+  "exposure_snapshot": "research/validation/exposure_snapshot_20260905.json",
+  "scienceworld_jar": "research/validation/vendor/scienceworld-e8216d6.jar",
+  "max_steps": {"scienceworld": 160, "alfworld": 120},
+  "minimum_family_support": 1,
+  "maximum_family_support_fraction": 0.5,
+  "maximum_singleton_specs_per_family_and_kind": 1,
+  "maximum_multitask_specs_per_family_and_kind": 4,
+  "spec_output": "revisions/22_predicate_impact_testing/predicate_specs.json",
+  "mutation_output": "revisions/22_predicate_impact_testing/results/native_mutations",
+  "selection_output": "revisions/22_predicate_impact_testing/results/selection_analysis",
+  "selection_methods": [
+    "predicate_impact",
+    "family_predicate_random",
+    "skill_family_random",
+    "random",
+    "family_stratified",
+    "lexical_similarity",
+    "shortest_first",
+    "oracle_upper_bound"
+  ],
+  "random_seeds": 200,
+  "task_budgets": [1, 2, 3, 5, 10, 20],
+  "estimated_step_budgets": [25, 50, 100, 250, 500],
+  "primary_task_budget": 3,
+  "development_gate": {
+    "minimum_detectable_predicate_specs": 30,
+    "minimum_multitask_detectable_specs": 10,
+    "minimum_environments": 2,
+    "minimum_skill_families": 8,
+    "minimum_predicate_impact_detection_rate": 0.80,
+    "minimum_absolute_lift_over_skill_family_random": 0.20,
+    "maximum_conditional_randomization_p": 0.01
+  }
+}

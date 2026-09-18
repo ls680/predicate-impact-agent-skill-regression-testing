@@ -1,0 +1,36 @@
+{
+  "status": "completed",
+  "scope": "exposed_cross_environment_development_only",
+  "predicate_specs": 77,
+  "detectable_predicate_specs": 72,
+  "multitask_detectable_specs": 50,
+  "detectable_environments": [
+    "alfworld",
+    "scienceworld"
+  ],
+  "detectable_skill_families": 12,
+  "primary_task_budget": 3,
+  "predicate_impact_detected": 72,
+  "predicate_impact_detection_rate": 1.0,
+  "skill_family_random_expected_detection_rate": 0.5487956487956489,
+  "absolute_lift_over_skill_family_random": 0.4512043512043511,
+  "conditional_randomization_p_one_sided": 1.4883114420854084e-21,
+  "p_value_scope_warning": "Conditional development-benchmark randomization, not population inference.",
+  "development_gate_checks": {
+    "minimum_detectable_predicate_specs": true,
+    "minimum_multitask_detectable_specs": true,
+    "minimum_environments": true,
+    "minimum_skill_families": true,
+    "minimum_predicate_impact_detection_rate": true,
+    "minimum_absolute_lift_over_skill_family_random": true,
+    "maximum_conditional_randomization_p": true
+  },
+  "development_gate_passed": true,
+  "advance_to_reserved_confirmation": true,
+  "detectable_by_environment": {
+    "alfworld": 20,
+    "scienceworld": 52
+  },
+  "reserved_tasks_accessed": 0,
+  "evaluations_sha256": "b48003a60983505ae474577c543616f37d2a92e2e4e91b51cd2e5414d3f57b5a"
+}

@@ -1,0 +1,32 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper,margin=25mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Termes}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\input{stvr_metadata.tex}
+\pagestyle{empty}
+
+\begin{document}
+\section*{Graphical Table of Contents}
+
+\textbf{Title:} \STVRArticleTitle
+
+\medskip
+\textbf{Authors:} \STVRAuthorNamesForTOC
+
+\bigskip
+\begin{center}
+  \includegraphics[width=50mm,height=60mm]{graphical_toc_image.pdf}
+\end{center}
+
+\bigskip
+PredicateImpact records predicate-level coverage from passing agent-skill
+traces and prioritizes tests that exercised the changed predicate. Across two
+disjoint ALFWorld and ScienceWorld confirmations, it detected all 179 killable
+mutations within a three-test budget, compared with about 56\% expected
+detection for skill-family random selection, while avoiding 71--75\% of
+full-family test executions.
+
+\end{document}

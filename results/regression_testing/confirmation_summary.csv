@@ -1,0 +1,3 @@
+dataset,reserved_tasks,mutation_specs,killable_specs,native_replays,killed_task_mutation_pairs,predicate_detection_rate,skill_family_random_expected_rate,absolute_lift,conditional_randomization_p,coverage_random_expected_rate,all_mutation_detection_score,all_mutation_family_random_expected_score,test_execution_reduction_vs_full_family
+R23 deletion,96,71,64,185,168,1.0,0.5560546875,0.4439453125,1.6525515472148176e-19,1.0,0.9014084507042254,0.5012323943661972,0.7544757033248082
+R24 multi-operator,68,141,115,306,240,1.0,0.556721104981974,0.443278895018026,8.289493459252406e-35,1.0,0.8156028368794326,0.4540633125739505,0.7131979695431472

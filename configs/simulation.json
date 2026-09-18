@@ -1,0 +1,23 @@
+{
+  "output_dir": "experiments/runs/simulation",
+  "seeds": 30,
+  "depths": [2, 4, 6, 8],
+  "branching_factors": [2, 3],
+  "propagation_probabilities": [0.35, 0.65, 0.9],
+  "missing_edge_rates": [0.0, 0.2, 0.4],
+  "methods": [
+    "none",
+    "source_only",
+    "semantic",
+    "full_lineage",
+    "full_lineage_replay",
+    "skilllineage",
+    "oracle_selective"
+  ],
+  "base_success": 0.32,
+  "clean_skill_success": 0.86,
+  "contaminated_skill_success": 0.14,
+  "counterfactual_repair_success": 0.92,
+  "counterfactual_false_positive_damage": 0.15,
+  "skilllineage_threshold": 0.55
+}

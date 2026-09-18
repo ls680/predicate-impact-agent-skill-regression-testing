@@ -1,0 +1,52 @@
+{
+  "status": "completed",
+  "scope": "independent_reserved_confirmation",
+  "predicate_specs": 71,
+  "detectable_predicate_specs": 64,
+  "multitask_detectable_specs": 48,
+  "detectable_skill_families": 9,
+  "primary_task_budget": 3,
+  "overall": {
+    "detectable_specs": 64,
+    "detected": 64,
+    "detection_rate": 1.0,
+    "skill_family_random_expected_rate": 0.5560546875,
+    "absolute_lift": 0.4439453125,
+    "conditional_randomization_p_one_sided": 1.6525515472148176e-19
+  },
+  "by_environment": {
+    "alfworld": {
+      "detectable_specs": 29,
+      "detected": 29,
+      "detection_rate": 1.0,
+      "skill_family_random_expected_rate": 0.6434729064039407,
+      "absolute_lift": 0.3565270935960593,
+      "conditional_randomization_p_one_sided": 5.292799316234294e-07
+    },
+    "scienceworld": {
+      "detectable_specs": 35,
+      "detected": 35,
+      "detection_rate": 1.0,
+      "skill_family_random_expected_rate": 0.48362244897959195,
+      "absolute_lift": 0.516377551020408,
+      "conditional_randomization_p_one_sided": 3.1222637558655264e-13
+    }
+  },
+  "confirmatory_gate_checks": {
+    "minimum_detectable_predicate_specs": true,
+    "minimum_multitask_detectable_specs": true,
+    "minimum_environments": true,
+    "minimum_skill_families": true,
+    "minimum_predicate_impact_detection_rate": true,
+    "minimum_absolute_lift_over_skill_family_random": true,
+    "maximum_conditional_randomization_p": true,
+    "minimum_each_environment_detection_rate": true,
+    "minimum_each_environment_absolute_lift": true,
+    "maximum_each_environment_conditional_p": true
+  },
+  "confirmatory_gate_passed": true,
+  "claim_scope": "confirmed_on_frozen_mutation_benchmark",
+  "population_generalization_claim_permitted": false,
+  "reserved_tasks_accessed": 96,
+  "evaluations_sha256": "4a5ddfc36df3d82763ac9ea51da5bc38d777e169e9537a063689b4f63a5ae208"
+}

@@ -1,0 +1,1039 @@
+{
+  "status": "preoutcome_frozen_sparse_predicate_mutation_development",
+  "generation_reads_mutation_outcomes": false,
+  "supersedes_nonexecuted_draft": "predicate_specs_draft_singleton_heavy.json",
+  "config": {
+    "status": "preoutcome_frozen_sparse_predicate_mutation_development",
+    "healthy_runs": {
+      "scienceworld": "revisions/19_shadow_release_testing/results/exposed_science_oracles",
+      "alfworld": "revisions/20_crossenv_shadow_testing/results/exposed_alf_oracles"
+    },
+    "expected_tasks": {
+      "scienceworld": 78,
+      "alfworld": 30
+    },
+    "exposure_snapshot": "research/validation/exposure_snapshot_20260905.json",
+    "scienceworld_jar": "research/validation/vendor/scienceworld-e8216d6.jar",
+    "max_steps": {
+      "scienceworld": 160,
+      "alfworld": 120
+    },
+    "minimum_family_support": 1,
+    "maximum_family_support_fraction": 0.5,
+    "maximum_singleton_specs_per_family_and_kind": 1,
+    "maximum_multitask_specs_per_family_and_kind": 4,
+    "spec_output": "revisions/22_predicate_impact_testing/predicate_specs.json",
+    "mutation_output": "revisions/22_predicate_impact_testing/results/native_mutations"
+  },
+  "specs": [
+    {
+      "spec_id": "0c8eff234ccb7d8bcacc",
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "predicate_kind": "take_object",
+      "predicate_value": "bowl",
+      "family_healthy_tasks": 5,
+      "support_count": 1,
+      "support_task_ids": [
+        "json_2.1.1/valid_seen/look_at_obj_in_light-Bowl-None-DeskLamp-316/trial_T20190908_230702_962704/game.tw-pddl"
+      ]
+    },
+    {
+      "spec_id": "c617d98781b61da65859",
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "predicate_kind": "take_object",
+      "predicate_value": "cd",
+      "family_healthy_tasks": 5,
+      "support_count": 2,
+      "support_task_ids": [
+        "json_2.1.1/valid_seen/look_at_obj_in_light-CD-None-DeskLamp-302/trial_T20190907_154618_526741/game.tw-pddl",
+        "json_2.1.1/valid_seen/look_at_obj_in_light-CD-None-DeskLamp-314/trial_T20190907_114323_767231/game.tw-pddl"
+      ]
+    },
+    {
+      "spec_id": "ca86b68bfa3c98d7b5f7",
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "predicate_kind": "open_target",
+      "predicate_value": "drawer",
+      "family_healthy_tasks": 5,
+      "support_count": 2,
+      "support_task_ids": [
+        "json_2.1.1/valid_seen/look_at_obj_in_light-Bowl-None-DeskLamp-316/trial_T20190908_230702_962704/game.tw-pddl",
+        "json_2.1.1/valid_seen/look_at_obj_in_light-CD-None-DeskLamp-314/trial_T20190907_114323_767231/game.tw-pddl"
+      ]
+    },
+    {
+      "spec_id": "68031cf2db4cfadb869f",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "predicate_kind": "take_object",
+      "predicate_value": "box",
+      "family_healthy_tasks": 5,
+      "support_count": 1,
+      "support_task_ids": [
+        "json_2.1.1/valid_seen/pick_and_place_simple-Box-None-Dresser-224/trial_T20190907_164104_229696/game.tw-pddl"
+      ]
+    },
+    {
+      "spec_id": "6998e593fe5e568507b7",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "predicate_kind": "take_object",
+      "predicate_value": "spraybottle",
+      "family_healthy_tasks": 5,
+      "support_count": 2,
+      "support_task_ids": [
+        "json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-GarbageCan-409/trial_T20190908_054742_818364/game.tw-pddl",
+        "json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-415/trial_T20190909_075955_678702/game.tw-pddl"
+      ]
+    },
+    {
+      "spec_id": "5954b39a26548e1cc6f3",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "predicate_kind": "place_destination",
+      "predicate_value": "armchair",
+      "family_healthy_tasks": 5,
+      "support_count": 1,
+      "support_task_ids": [
+        "json_2.1.1/valid_seen/pick_and_place_simple-RemoteControl-None-ArmChair-230/trial_T20190909_021000_274398/game.tw-pddl"
+      ]
+    },
+    {
+      "spec_id": "9144a75ee7bc0e78acd4",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "predicate_kind": "place_destination",
+      "predicate_value": "toilet",
+      "family_healthy_tasks": 5,
+      "support_count": 2,
+      "support_task_ids": [
+        "json_2.1.1/valid_seen/pick_and_place_simple-Candle-None-Toilet-407/trial_T20190909_055248_059513/game.tw-pddl",
+        "json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-415/trial_T20190909_075955_678702/game.tw-pddl"
+      ]
+    },
+    {
+      "spec_id": "18ef34fcbbc3e9cf8924",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "predicate_kind": "take_object",
+      "predicate_value": "butterknife",
+      "family_healthy_tasks": 5,
+      "support_count": 1,
+      "support_task_ids": [
+        "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-ButterKnife-None-Drawer-30/trial_T20190908_052007_212776/game.tw-pddl"
+      ]
+    },
+    {
+      "spec_id": "0b4eda242387a945aff6",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "predicate_kind": "take_object",
+      "predicate_value": "lettuce",
+      "family_healthy_tasks": 5,
+      "support_count": 2,
+      "support_task_ids": [
+        "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Lettuce-None-CounterTop-16/trial_T20190909_051630_092360/game.tw-pddl",
+        "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Lettuce-None-Fridge-19/trial_T20190908_100138_446072/game.tw-pddl"
+      ]
+    },
+    {
+      "spec_id": "bc80b267ac4cc8602a88",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "predicate_kind": "place_destination",
+      "predicate_value": "coffeemachine",
+      "family_healthy_tasks": 5,
+      "support_count": 1,
+      "support_task_ids": [
+        "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-26/trial_T20190907_233056_022802/game.tw-pddl"
+      ]
+    },
+    {
+      "spec_id": "45ace5ec29727db93571",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "predicate_kind": "open_target",
+      "predicate_value": "cabinet",
+      "family_healthy_tasks": 5,
+      "support_count": 1,
+      "support_task_ids": [
+        "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-26/trial_T20190907_233056_022802/game.tw-pddl"
+      ]
+    },
+    {
+      "spec_id": "8ca3e66f93593bfd4364",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "predicate_kind": "open_target",
+      "predicate_value": "drawer",
+      "family_healthy_tasks": 5,
+      "support_count": 2,
+      "support_task_ids": [
+        "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-ButterKnife-None-Drawer-30/trial_T20190908_052007_212776/game.tw-pddl",
+        "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Spatula-None-DiningTable-4/trial_T20190909_002804_564168/game.tw-pddl"
+      ]
+    },
+    {
+      "spec_id": "b2c81eaec200fbf3120d",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "predicate_kind": "take_object",
+      "predicate_value": "lettuce",
+      "family_healthy_tasks": 5,
+      "support_count": 1,
+      "support_task_ids": [
+        "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Lettuce-None-CounterTop-11/trial_T20190908_222555_651605/game.tw-pddl"
+      ]
+    },
+    {
+      "spec_id": "6cbaf7a68237b4983df5",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "predicate_kind": "take_object",
+      "predicate_value": "plate",
+      "family_healthy_tasks": 5,
+      "support_count": 2,
+      "support_task_ids": [
+        "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Plate-None-Cabinet-7/trial_T20190907_231206_512424/game.tw-pddl",
+        "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Plate-None-CounterTop-1/trial_T20190906_205324_559361/game.tw-pddl"
+      ]
+    },
+    {
+      "spec_id": "2c0cfa848cc75be9c485",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "predicate_kind": "take_object",
+      "predicate_value": "tomato",
+      "family_healthy_tasks": 5,
+      "support_count": 2,
+      "support_task_ids": [
+        "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Tomato-None-Microwave-13/trial_T20190910_173916_331859/game.tw-pddl",
+        "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Tomato-None-Microwave-18/trial_T20190909_012524_159092/game.tw-pddl"
+      ]
+    },
+    {
+      "spec_id": "90551153afcd25d5dd84",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "predicate_kind": "place_destination",
+      "predicate_value": "cabinet",
+      "family_healthy_tasks": 5,
+      "support_count": 1,
+      "support_task_ids": [
+        "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Plate-None-Cabinet-7/trial_T20190907_231206_512424/game.tw-pddl"
+      ]
+    },
+    {
+      "spec_id": "54c518d40138fb0f5e50",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "predicate_kind": "place_destination",
+      "predicate_value": "countertop",
+      "family_healthy_tasks": 5,
+      "support_count": 2,
+      "support_task_ids": [
+        "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Lettuce-None-CounterTop-11/trial_T20190908_222555_651605/game.tw-pddl",
+        "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Plate-None-CounterTop-1/trial_T20190906_205324_559361/game.tw-pddl"
+      ]
+    },
+    {
+      "spec_id": "48c5699202e400b838aa",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "predicate_kind": "place_destination",
+      "predicate_value": "microwave",
+      "family_healthy_tasks": 5,
+      "support_count": 2,
+      "support_task_ids": [
+        "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Tomato-None-Microwave-13/trial_T20190910_173916_331859/game.tw-pddl",
+        "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Tomato-None-Microwave-18/trial_T20190909_012524_159092/game.tw-pddl"
+      ]
+    },
+    {
+      "spec_id": "cf496e6805e2309837b9",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "predicate_kind": "open_target",
+      "predicate_value": "drawer",
+      "family_healthy_tasks": 5,
+      "support_count": 1,
+      "support_task_ids": [
+        "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Plate-None-CounterTop-1/trial_T20190906_205324_559361/game.tw-pddl"
+      ]
+    },
+    {
+      "spec_id": "e5897ffd7f2544f85b7a",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "predicate_kind": "open_target",
+      "predicate_value": "cabinet",
+      "family_healthy_tasks": 5,
+      "support_count": 2,
+      "support_task_ids": [
+        "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Plate-None-Cabinet-7/trial_T20190907_231206_512424/game.tw-pddl",
+        "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Plate-None-CounterTop-1/trial_T20190906_205324_559361/game.tw-pddl"
+      ]
+    },
+    {
+      "spec_id": "7d2a55affbb4adc8b80c",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "predicate_kind": "take_object",
+      "predicate_value": "apple",
+      "family_healthy_tasks": 5,
+      "support_count": 1,
+      "support_task_ids": [
+        "json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Apple-None-DiningTable-26/trial_T20190907_060234_011675/game.tw-pddl"
+      ]
+    },
+    {
+      "spec_id": "1ad5d56efd86cc2a72c9",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "predicate_kind": "place_destination",
+      "predicate_value": "cabinet",
+      "family_healthy_tasks": 5,
+      "support_count": 1,
+      "support_task_ids": [
+        "json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Cup-None-Cabinet-22/trial_T20190907_173251_960848/game.tw-pddl"
+      ]
+    },
+    {
+      "spec_id": "81b28300b7f0283298e8",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "predicate_kind": "open_target",
+      "predicate_value": "cabinet",
+      "family_healthy_tasks": 5,
+      "support_count": 1,
+      "support_task_ids": [
+        "json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Cup-None-Cabinet-22/trial_T20190907_173251_960848/game.tw-pddl"
+      ]
+    },
+    {
+      "spec_id": "a36b67e2244534999cd8",
+      "environment": "alfworld",
+      "family": "pick_two_obj_and_place",
+      "predicate_kind": "take_object",
+      "predicate_value": "tissuebox",
+      "family_healthy_tasks": 2,
+      "support_count": 1,
+      "support_task_ids": [
+        "json_2.1.1/valid_seen/pick_two_obj_and_place-TissueBox-None-Toilet-426/trial_T20190909_044602_338962/game.tw-pddl"
+      ]
+    },
+    {
+      "spec_id": "68f854195d4ce73d5559",
+      "environment": "alfworld",
+      "family": "pick_two_obj_and_place",
+      "predicate_kind": "place_destination",
+      "predicate_value": "desk",
+      "family_healthy_tasks": 2,
+      "support_count": 1,
+      "support_task_ids": [
+        "json_2.1.1/valid_seen/pick_two_obj_and_place-Vase-None-Desk-204/trial_T20190906_181531_703961/game.tw-pddl"
+      ]
+    },
+    {
+      "spec_id": "5a491646b9afbdaa7cf2",
+      "environment": "scienceworld",
+      "family": "boil",
+      "predicate_kind": "focus_object",
+      "predicate_value": "gallium",
+      "family_healthy_tasks": 11,
+      "support_count": 1,
+      "support_task_ids": [
+        "boil:27"
+      ]
+    },
+    {
+      "spec_id": "89ab062a806a065f3822",
+      "environment": "scienceworld",
+      "family": "boil",
+      "predicate_kind": "focus_object",
+      "predicate_value": "caesium",
+      "family_healthy_tasks": 11,
+      "support_count": 2,
+      "support_task_ids": [
+        "boil:28",
+        "boil:29"
+      ]
+    },
+    {
+      "spec_id": "52bbf24ffdcde3abd4d8",
+      "environment": "scienceworld",
+      "family": "boil",
+      "predicate_kind": "focus_object",
+      "predicate_value": "ice cream",
+      "family_healthy_tasks": 11,
+      "support_count": 2,
+      "support_task_ids": [
+        "boil:14",
+        "boil:15"
+      ]
+    },
+    {
+      "spec_id": "3251edb42819585015c6",
+      "environment": "scienceworld",
+      "family": "boil",
+      "predicate_kind": "focus_object",
+      "predicate_value": "lead",
+      "family_healthy_tasks": 11,
+      "support_count": 2,
+      "support_task_ids": [
+        "boil:20",
+        "boil:21"
+      ]
+    },
+    {
+      "spec_id": "5714489f445a33c31de0",
+      "environment": "scienceworld",
+      "family": "boil",
+      "predicate_kind": "pickup_object",
+      "predicate_value": "cup",
+      "family_healthy_tasks": 11,
+      "support_count": 1,
+      "support_task_ids": [
+        "boil:24"
+      ]
+    },
+    {
+      "spec_id": "86dc8c34fab461ae3dd0",
+      "environment": "scienceworld",
+      "family": "boil",
+      "predicate_kind": "pickup_object",
+      "predicate_value": "caesium",
+      "family_healthy_tasks": 11,
+      "support_count": 2,
+      "support_task_ids": [
+        "boil:28",
+        "boil:29"
+      ]
+    },
+    {
+      "spec_id": "23a188a9cbdb8bf6d5de",
+      "environment": "scienceworld",
+      "family": "boil",
+      "predicate_kind": "pickup_object",
+      "predicate_value": "lead",
+      "family_healthy_tasks": 11,
+      "support_count": 2,
+      "support_task_ids": [
+        "boil:20",
+        "boil:21"
+      ]
+    },
+    {
+      "spec_id": "f2639c4e8adf2ed1997b",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "predicate_kind": "focus_object",
+      "predicate_value": "baby baby beaver",
+      "family_healthy_tasks": 13,
+      "support_count": 1,
+      "support_task_ids": [
+        "find-living-thing:197"
+      ]
+    },
+    {
+      "spec_id": "db2e0d9f050f2f548514",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "predicate_kind": "focus_object",
+      "predicate_value": "common toad",
+      "family_healthy_tasks": 13,
+      "support_count": 4,
+      "support_task_ids": [
+        "find-living-thing:182",
+        "find-living-thing:209",
+        "find-living-thing:238",
+        "find-living-thing:257"
+      ]
+    },
+    {
+      "spec_id": "50bad72e1c353fd414b6",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "predicate_kind": "focus_object",
+      "predicate_value": "crocodile",
+      "family_healthy_tasks": 13,
+      "support_count": 3,
+      "support_task_ids": [
+        "find-living-thing:272",
+        "find-living-thing:278",
+        "find-living-thing:282"
+      ]
+    },
+    {
+      "spec_id": "7d1995309e411817c06d",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "predicate_kind": "focus_object",
+      "predicate_value": "egg giant tortoise",
+      "family_healthy_tasks": 13,
+      "support_count": 2,
+      "support_task_ids": [
+        "find-living-thing:163",
+        "find-living-thing:168"
+      ]
+    },
+    {
+      "spec_id": "888c359f8f98fcddaaa4",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "predicate_kind": "pickup_object",
+      "predicate_value": "baby baby beaver",
+      "family_healthy_tasks": 13,
+      "support_count": 1,
+      "support_task_ids": [
+        "find-living-thing:197"
+      ]
+    },
+    {
+      "spec_id": "5d47e5693fb9d7f40427",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "predicate_kind": "pickup_object",
+      "predicate_value": "common toad",
+      "family_healthy_tasks": 13,
+      "support_count": 4,
+      "support_task_ids": [
+        "find-living-thing:182",
+        "find-living-thing:209",
+        "find-living-thing:238",
+        "find-living-thing:257"
+      ]
+    },
+    {
+      "spec_id": "d12fc55a71ac1e1a038d",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "predicate_kind": "pickup_object",
+      "predicate_value": "crocodile",
+      "family_healthy_tasks": 13,
+      "support_count": 3,
+      "support_task_ids": [
+        "find-living-thing:272",
+        "find-living-thing:278",
+        "find-living-thing:282"
+      ]
+    },
+    {
+      "spec_id": "5ab4306186023f8b9ea8",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "predicate_kind": "pickup_object",
+      "predicate_value": "egg giant tortoise",
+      "family_healthy_tasks": 13,
+      "support_count": 2,
+      "support_task_ids": [
+        "find-living-thing:163",
+        "find-living-thing:168"
+      ]
+    },
+    {
+      "spec_id": "7d400cf2c4c9aec6f308",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "predicate_kind": "box_destination",
+      "predicate_value": "green box",
+      "family_healthy_tasks": 13,
+      "support_count": 1,
+      "support_task_ids": [
+        "find-living-thing:163"
+      ]
+    },
+    {
+      "spec_id": "5f5cc850e838b57d34fa",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "predicate_kind": "box_destination",
+      "predicate_value": "blue box",
+      "family_healthy_tasks": 13,
+      "support_count": 3,
+      "support_task_ids": [
+        "find-living-thing:182",
+        "find-living-thing:272",
+        "find-living-thing:278"
+      ]
+    },
+    {
+      "spec_id": "e31caf522b9ae179fbdf",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "predicate_kind": "box_destination",
+      "predicate_value": "purple box",
+      "family_healthy_tasks": 13,
+      "support_count": 4,
+      "support_task_ids": [
+        "find-living-thing:197",
+        "find-living-thing:209",
+        "find-living-thing:257",
+        "find-living-thing:275"
+      ]
+    },
+    {
+      "spec_id": "03eda951bfd2fbce3d79",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "predicate_kind": "box_destination",
+      "predicate_value": "red box",
+      "family_healthy_tasks": 13,
+      "support_count": 3,
+      "support_task_ids": [
+        "find-living-thing:168",
+        "find-living-thing:270",
+        "find-living-thing:282"
+      ]
+    },
+    {
+      "spec_id": "f280d84f20b4192804ab",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "predicate_kind": "focus_object",
+      "predicate_value": "bed",
+      "family_healthy_tasks": 13,
+      "support_count": 1,
+      "support_task_ids": [
+        "find-non-living-thing:260"
+      ]
+    },
+    {
+      "spec_id": "545aed453f7083d2702b",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "predicate_kind": "focus_object",
+      "predicate_value": "chair",
+      "family_healthy_tasks": 13,
+      "support_count": 2,
+      "support_task_ids": [
+        "find-non-living-thing:286",
+        "find-non-living-thing:287"
+      ]
+    },
+    {
+      "spec_id": "3ef6490eec1a1d9b4eb6",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "predicate_kind": "focus_object",
+      "predicate_value": "object",
+      "family_healthy_tasks": 13,
+      "support_count": 2,
+      "support_task_ids": [
+        "find-non-living-thing:227",
+        "find-non-living-thing:231"
+      ]
+    },
+    {
+      "spec_id": "4e0cb09363002d5108e3",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "predicate_kind": "focus_object",
+      "predicate_value": "picture",
+      "family_healthy_tasks": 13,
+      "support_count": 2,
+      "support_task_ids": [
+        "find-non-living-thing:188",
+        "find-non-living-thing:220"
+      ]
+    },
+    {
+      "spec_id": "d414c61efa87f5f3aca5",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "predicate_kind": "focus_object",
+      "predicate_value": "table",
+      "family_healthy_tasks": 13,
+      "support_count": 3,
+      "support_task_ids": [
+        "find-non-living-thing:175",
+        "find-non-living-thing:228",
+        "find-non-living-thing:230"
+      ]
+    },
+    {
+      "spec_id": "c15a3cc5e9332d667e3c",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "predicate_kind": "box_destination",
+      "predicate_value": "orange box",
+      "family_healthy_tasks": 13,
+      "support_count": 1,
+      "support_task_ids": [
+        "find-non-living-thing:231"
+      ]
+    },
+    {
+      "spec_id": "3bf0a3b02332fa99131a",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "predicate_kind": "box_destination",
+      "predicate_value": "blue box",
+      "family_healthy_tasks": 13,
+      "support_count": 3,
+      "support_task_ids": [
+        "find-non-living-thing:188",
+        "find-non-living-thing:230",
+        "find-non-living-thing:260"
+      ]
+    },
+    {
+      "spec_id": "3f4a125d1aaa1dd6f988",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "predicate_kind": "box_destination",
+      "predicate_value": "green box",
+      "family_healthy_tasks": 13,
+      "support_count": 2,
+      "support_task_ids": [
+        "find-non-living-thing:169",
+        "find-non-living-thing:175"
+      ]
+    },
+    {
+      "spec_id": "17d35d5e651eafc2ab57",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "predicate_kind": "box_destination",
+      "predicate_value": "purple box",
+      "family_healthy_tasks": 13,
+      "support_count": 3,
+      "support_task_ids": [
+        "find-non-living-thing:227",
+        "find-non-living-thing:239",
+        "find-non-living-thing:287"
+      ]
+    },
+    {
+      "spec_id": "8a9e70e1be732981cd57",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "predicate_kind": "box_destination",
+      "predicate_value": "red box",
+      "family_healthy_tasks": 13,
+      "support_count": 2,
+      "support_task_ids": [
+        "find-non-living-thing:204",
+        "find-non-living-thing:228"
+      ]
+    },
+    {
+      "spec_id": "0b8f10f6250e3db1075c",
+      "environment": "scienceworld",
+      "family": "freeze",
+      "predicate_kind": "focus_object",
+      "predicate_value": "gallium",
+      "family_healthy_tasks": 10,
+      "support_count": 1,
+      "support_task_ids": [
+        "freeze:26"
+      ]
+    },
+    {
+      "spec_id": "4b8740b1f4a4c440c445",
+      "environment": "scienceworld",
+      "family": "freeze",
+      "predicate_kind": "focus_object",
+      "predicate_value": "caesium",
+      "family_healthy_tasks": 10,
+      "support_count": 2,
+      "support_task_ids": [
+        "freeze:28",
+        "freeze:29"
+      ]
+    },
+    {
+      "spec_id": "a80450db8771c7a7a885",
+      "environment": "scienceworld",
+      "family": "freeze",
+      "predicate_kind": "focus_object",
+      "predicate_value": "lead",
+      "family_healthy_tasks": 10,
+      "support_count": 2,
+      "support_task_ids": [
+        "freeze:20",
+        "freeze:21"
+      ]
+    },
+    {
+      "spec_id": "93c679834332eb83f38a",
+      "environment": "scienceworld",
+      "family": "freeze",
+      "predicate_kind": "focus_object",
+      "predicate_value": "substance",
+      "family_healthy_tasks": 10,
+      "support_count": 2,
+      "support_task_ids": [
+        "freeze:22",
+        "freeze:23"
+      ]
+    },
+    {
+      "spec_id": "12da6b70e4ee23a94925",
+      "environment": "scienceworld",
+      "family": "freeze",
+      "predicate_kind": "pickup_object",
+      "predicate_value": "gallium",
+      "family_healthy_tasks": 10,
+      "support_count": 1,
+      "support_task_ids": [
+        "freeze:26"
+      ]
+    },
+    {
+      "spec_id": "b4bfb36493ccaa65f242",
+      "environment": "scienceworld",
+      "family": "freeze",
+      "predicate_kind": "pickup_object",
+      "predicate_value": "caesium",
+      "family_healthy_tasks": 10,
+      "support_count": 2,
+      "support_task_ids": [
+        "freeze:28",
+        "freeze:29"
+      ]
+    },
+    {
+      "spec_id": "766e61b4a4d110d33e9d",
+      "environment": "scienceworld",
+      "family": "freeze",
+      "predicate_kind": "pickup_object",
+      "predicate_value": "lead",
+      "family_healthy_tasks": 10,
+      "support_count": 2,
+      "support_task_ids": [
+        "freeze:20",
+        "freeze:21"
+      ]
+    },
+    {
+      "spec_id": "31ab1d4d36828f302af0",
+      "environment": "scienceworld",
+      "family": "freeze",
+      "predicate_kind": "pickup_object",
+      "predicate_value": "substance in cup",
+      "family_healthy_tasks": 10,
+      "support_count": 2,
+      "support_task_ids": [
+        "freeze:22",
+        "freeze:23"
+      ]
+    },
+    {
+      "spec_id": "02438395a63e0dab555b",
+      "environment": "scienceworld",
+      "family": "melt",
+      "predicate_kind": "focus_object",
+      "predicate_value": "caesium",
+      "family_healthy_tasks": 11,
+      "support_count": 1,
+      "support_task_ids": [
+        "melt:29"
+      ]
+    },
+    {
+      "spec_id": "0d638cad71ca5f293b85",
+      "environment": "scienceworld",
+      "family": "melt",
+      "predicate_kind": "focus_object",
+      "predicate_value": "gallium",
+      "family_healthy_tasks": 11,
+      "support_count": 2,
+      "support_task_ids": [
+        "melt:26",
+        "melt:27"
+      ]
+    },
+    {
+      "spec_id": "56c04a97352957cedc82",
+      "environment": "scienceworld",
+      "family": "melt",
+      "predicate_kind": "focus_object",
+      "predicate_value": "lead",
+      "family_healthy_tasks": 11,
+      "support_count": 2,
+      "support_task_ids": [
+        "melt:20",
+        "melt:21"
+      ]
+    },
+    {
+      "spec_id": "a3bf0c1baa8af2654df8",
+      "environment": "scienceworld",
+      "family": "melt",
+      "predicate_kind": "focus_object",
+      "predicate_value": "rubber",
+      "family_healthy_tasks": 11,
+      "support_count": 2,
+      "support_task_ids": [
+        "melt:18",
+        "melt:19"
+      ]
+    },
+    {
+      "spec_id": "86460a0dd2cfcddf3fc6",
+      "environment": "scienceworld",
+      "family": "melt",
+      "predicate_kind": "focus_object",
+      "predicate_value": "substance",
+      "family_healthy_tasks": 11,
+      "support_count": 2,
+      "support_task_ids": [
+        "melt:22",
+        "melt:23"
+      ]
+    },
+    {
+      "spec_id": "6f5bacc24c37f081750a",
+      "environment": "scienceworld",
+      "family": "melt",
+      "predicate_kind": "pickup_object",
+      "predicate_value": "caesium",
+      "family_healthy_tasks": 11,
+      "support_count": 1,
+      "support_task_ids": [
+        "melt:29"
+      ]
+    },
+    {
+      "spec_id": "cb7ca5d3c4e8c9105aef",
+      "environment": "scienceworld",
+      "family": "melt",
+      "predicate_kind": "pickup_object",
+      "predicate_value": "gallium",
+      "family_healthy_tasks": 11,
+      "support_count": 2,
+      "support_task_ids": [
+        "melt:26",
+        "melt:27"
+      ]
+    },
+    {
+      "spec_id": "07d5f0832bf1079c7334",
+      "environment": "scienceworld",
+      "family": "melt",
+      "predicate_kind": "pickup_object",
+      "predicate_value": "lead",
+      "family_healthy_tasks": 11,
+      "support_count": 2,
+      "support_task_ids": [
+        "melt:20",
+        "melt:21"
+      ]
+    },
+    {
+      "spec_id": "b735a37b45a19664da9f",
+      "environment": "scienceworld",
+      "family": "melt",
+      "predicate_kind": "pickup_object",
+      "predicate_value": "rubber",
+      "family_healthy_tasks": 11,
+      "support_count": 2,
+      "support_task_ids": [
+        "melt:18",
+        "melt:19"
+      ]
+    },
+    {
+      "spec_id": "ce54e570d43ddcb0527f",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "predicate_kind": "focus_object",
+      "predicate_value": "wire",
+      "family_healthy_tasks": 13,
+      "support_count": 3,
+      "support_task_ids": [
+        "use-thermometer:450",
+        "use-thermometer:463",
+        "use-thermometer:498"
+      ]
+    },
+    {
+      "spec_id": "3f62a31e4f2409c576ce",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "predicate_kind": "pickup_object",
+      "predicate_value": "wire",
+      "family_healthy_tasks": 13,
+      "support_count": 3,
+      "support_task_ids": [
+        "use-thermometer:450",
+        "use-thermometer:463",
+        "use-thermometer:498"
+      ]
+    },
+    {
+      "spec_id": "0c029921feb68fa9b91e",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "predicate_kind": "box_destination",
+      "predicate_value": "blue box",
+      "family_healthy_tasks": 13,
+      "support_count": 5,
+      "support_task_ids": [
+        "use-thermometer:309",
+        "use-thermometer:382",
+        "use-thermometer:422",
+        "use-thermometer:450",
+        "use-thermometer:463"
+      ]
+    },
+    {
+      "spec_id": "fafe52e1c599f94cd3ff",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "predicate_kind": "box_destination",
+      "predicate_value": "green box",
+      "family_healthy_tasks": 13,
+      "support_count": 2,
+      "support_task_ids": [
+        "use-thermometer:367",
+        "use-thermometer:398"
+      ]
+    },
+    {
+      "spec_id": "062f8d7cdd8c6b49f403",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "predicate_kind": "box_destination",
+      "predicate_value": "orange box",
+      "family_healthy_tasks": 13,
+      "support_count": 2,
+      "support_task_ids": [
+        "use-thermometer:426",
+        "use-thermometer:505"
+      ]
+    },
+    {
+      "spec_id": "ed9506a22f004ea64240",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "predicate_kind": "box_destination",
+      "predicate_value": "red box",
+      "family_healthy_tasks": 13,
+      "support_count": 2,
+      "support_task_ids": [
+        "use-thermometer:498",
+        "use-thermometer:514"
+      ]
+    }
+  ],
+  "spec_count": 77,
+  "original_source_sha256": "e98e6cd716bbeca3825a06641d03dba7a96f300d49af1d35d75665579fdaf5dd",
+  "input_sha256": {
+    "revisions/22_predicate_impact_testing/config.json": "b6d6bfb3e30b93ddb19081e4881dde24761e352a3bafed787d019e1fd1541289",
+    "revisions/22_predicate_impact_testing/generate_specs.py": "6df87bdc7b76c74e3fde6cded60a21a612c0d2c98d85f0ed09c8b15489d261bc",
+    "revisions/22_predicate_impact_testing/atoms.py": "f98349a66b34003f33a5b05ea31ce2601d538b21b5e1b427a7bd2e29cbd5e6a4",
+    "revisions/22_predicate_impact_testing/PROTOCOL.md": "846fed67153a74b5498ae2c8e8957ba404277bf1adccb3991c5388f3155a4631",
+    "research/validation/exposure_snapshot_20260905.json": "e5045c555cb6fc580367fb2c8db0754a2d722de80a902c82ddbc5a66aae4980f",
+    "revisions/19_shadow_release_testing/results/exposed_science_oracles/run_spec.json": "eb81332f8b95c23b963a404b5ea68eeb49bc869778317df50ed89a0cdf5fbb91",
+    "revisions/19_shadow_release_testing/results/exposed_science_oracles/completion.json": "e26a66b8f114053ad0dbe6314c6a313c204de8d21808c271fdd6900107d430ea",
+    "revisions/19_shadow_release_testing/results/exposed_science_oracles/trajectories.jsonl": "b3ddf3cb7326843a3163d989d4a9e042810f4aba9fb6cb23006fd9a1dfe25f51",
+    "revisions/20_crossenv_shadow_testing/results/exposed_alf_oracles/run_spec.json": "1b10da75aee7462bea1ef084b2430389a172d572b56a1fc858322603e11ecaf2",
+    "revisions/20_crossenv_shadow_testing/results/exposed_alf_oracles/completion.json": "a308d5ed5546fb253373905101d13d8590c86494c28f4c9b7e10fdfd14e358ff",
+    "revisions/20_crossenv_shadow_testing/results/exposed_alf_oracles/trajectories.jsonl": "153909e642ba047679a317e1bb3ab1bb9c9172561448d07afed2217e10f17a36"
+  }
+}

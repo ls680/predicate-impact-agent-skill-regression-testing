@@ -1,0 +1,8 @@
+{
+  "all_input_hashes_match": true,
+  "original_source_unchanged": true,
+  "all_accessed_tasks_in_frozen_reserved_roster": true,
+  "authorized_roster_tasks": 96,
+  "run_tasks": 91,
+  "run": "revisions/23_reserved_confirmation/results/selection_analysis"
+}
