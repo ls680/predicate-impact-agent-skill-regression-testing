@@ -101,11 +101,16 @@ repositories are not redistributed. Their versions or commits are pinned in
 the protocols, and the ScienceWorld simulator JAR is fetched separately and
 hash-checked. Users must comply with each upstream project's license.
 
-## Citation and License
+## Citation
 
-Citation metadata and the repository license will be added when the author
-list and release license are confirmed. Until then, no permission beyond the
-applicable statutory exceptions is granted for repository content.
+Citation metadata will be added when the author list is confirmed.
+
+## License
+
+Original code and repository materials are released under the Apache License
+2.0; see `LICENSE`. Third-party benchmarks, model weights, simulator assets,
+and audited repositories remain subject to their respective upstream licenses
+and are not relicensed or redistributed here.
 
 ## Evidence Boundary
 
