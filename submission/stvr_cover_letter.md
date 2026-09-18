@@ -31,7 +31,8 @@ agent skills while retaining explicit mutation operators, fixed budgets,
 independent confirmation sets, and reproducible integrity checks. Source code,
 data, frozen protocols, analysis scripts, and the reproducibility bundle are
 publicly available at
-https://github.com/ls680/predicate-impact-agent-skill-regression-testing.
+https://github.com/ls680/predicate-impact-agent-skill-regression-testing. The
+versioned dataset is archived at https://doi.org/10.5281/zenodo.22824889.
 
 We confirm that this manuscript has not been published previously and is not
 under consideration by another journal. Both authors approved the submitted

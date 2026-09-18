@@ -37,12 +37,13 @@ review and submission remain** (2026-09-18).
   acknowledgements, ethics status, and originality/exclusivity.
 - [x] Publish the GitHub repository under Apache-2.0 with a frozen,
   checksum-identified reproducibility bundle.
+- [x] Archive and formally cite the frozen version 1.0.0 dataset at
+  https://doi.org/10.5281/zenodo.22824889.
+- [x] Disclose generative-AI assistance within Experimental Design.
 - [x] Prepare the non-anonymized title page, graphical TOC entry, cover letter,
   portal metadata, and upload manifest.
 - [ ] Corresponding author reviews the rendered files and accepts the
   declarations in the journal portal.
-- [ ] Create an archival DOI if requested during review; none is assigned for
-  the initial submission.
 
 ## Residual Scientific Risk
 

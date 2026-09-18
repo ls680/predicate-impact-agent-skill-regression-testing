@@ -26,6 +26,6 @@ Expected submission-facing outputs:
 
 Names, order, affiliations, correspondence, the available ORCID, funding,
 competing interests, acknowledgements, CRediT roles, the generative-AI
-statement, and the GitHub URL are centralized in `stvr_metadata.tex`. Both
+statement, GitHub URL, and Zenodo DOI are centralized in `stvr_metadata.tex`. Both
 authors have verified the CRediT allocation and approved the final manuscript.
-No archival DOI has been assigned.
+The frozen dataset is archived at https://doi.org/10.5281/zenodo.22824889.

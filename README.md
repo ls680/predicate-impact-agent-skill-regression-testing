@@ -33,6 +33,7 @@ coverage granularity, not the proposed within-set tie-breaker.
 - Derived tables and figures: `results/regression_testing/` and
   `results/figures/`
 - Complete frozen artifact: `artifacts/predicate_rts_reproducibility_bundle.tar.gz`
+- Versioned Zenodo dataset: https://doi.org/10.5281/zenodo.22824889
 - Claim boundary: `research/PREDICATE_RTS_CLAIM_EVIDENCE.md`
 - Submission status: `research/PREDICATE_RTS_SUBMISSION_READINESS.md`
 - Audited machine/software snapshot: `research/PREDICATE_RTS_RUN_ENVIRONMENT.md`
@@ -104,7 +105,9 @@ hash-checked. Users must comply with each upstream project's license.
 ## Citation
 
 Machine-readable citation metadata for Liang Song and Zhai Jiabao is provided
-in `CITATION.cff`. Add the paper DOI after publication.
+in `CITATION.cff`. The frozen reproducibility dataset is archived as version
+1.0.0 at https://doi.org/10.5281/zenodo.22824889. Add the paper DOI after
+publication.
 
 ## License
 

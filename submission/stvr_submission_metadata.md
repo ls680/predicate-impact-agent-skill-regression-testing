@@ -37,5 +37,5 @@ China. Email: liangsong_1976@126.com.
 - Consent for publication: Not applicable.
 - Originality and exclusivity: The manuscript has not been published previously and is not under consideration by another journal. Both authors approved the submitted version and author order.
 - Data and code: https://github.com/ls680/predicate-impact-agent-skill-regression-testing
-- Archival DOI: Not assigned.
-- Generative-AI assistance: During the preparation of this work, the authors used OpenAI Codex for assistance with code development, reproducibility packaging, language editing, and manuscript formatting. The authors reviewed and verified all outputs and take full responsibility for the content of the manuscript and the integrity of the reported results.
+- Archived dataset: https://doi.org/10.5281/zenodo.22824889 (version 1.0.0)
+- Generative-AI assistance: During the preparation of this work, the authors used OpenAI Codex to assist with research-design iteration, code development, reproducibility packaging, language editing, and manuscript formatting. The authors reviewed and verified the generated code and text, reran the released integrity checks, evaluated every reported claim against the underlying results, and take full responsibility for the manuscript and the integrity of the reported results. OpenAI Codex is not an author and did not receive attribution as one.

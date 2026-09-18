@@ -31,4 +31,5 @@ scientific and administrative status is tracked in
 
 The public GitHub URL, author details, funding status, competing-interest
 statement, contribution statement, and generative-AI disclosure have been
-confirmed. No archival DOI has been assigned.
+confirmed. The frozen dataset is archived at
+https://doi.org/10.5281/zenodo.22824889.

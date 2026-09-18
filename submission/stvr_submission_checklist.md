@@ -12,12 +12,14 @@ Status: ready for the corresponding author's final portal review.
 - [x] Both authors approved the manuscript, author order, and contribution statement.
 - [x] The manuscript is not under consideration elsewhere.
 - [x] Public repository access is confirmed.
+- [x] The versioned dataset is published on Zenodo and formally cited in the manuscript.
+- [x] Generative-AI use is disclosed within Experimental Design.
 - [x] Graphical table-of-contents entry is prepared as a separate PDF and PNG.
 - [x] Reproducibility bundle is prepared as separate supporting information.
 - [x] Cover letter contains no placeholders.
 - [ ] Corresponding author checks the rendered files one final time in the submission portal.
 - [ ] Corresponding author accepts the portal's declarations and clicks Submit.
 
-No Zenodo or other archival DOI has been assigned. The public GitHub repository,
-version tag, bundled artifact, and SHA-256 checksum provide versioned access,
-but a DOI can still be added during revision if the journal requests one.
+The archived dataset DOI is `10.5281/zenodo.22824889`. The GitHub version tag,
+Zenodo record, bundled artifact, and SHA-256 checksum identify the same frozen
+version 1.0.0 evidence package.

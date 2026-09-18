@@ -50,7 +50,8 @@
 
       \textbf{Statements and declarations:} Acknowledgements, author
       contributions, funding, competing interests, data availability, ethics,
-      consent, and generative-AI assistance are reported after the references.
+      and consent are reported after the references. Generative-AI assistance
+      is reported in the Experimental Design section.
     \end{minipage}
     \vfill
     {Prepared for initial free-format submission, September 2026\par}
@@ -68,6 +69,29 @@
     \noindent\input{stvr_abstract.tex}
   \end{quotation}
 }{}
+
+% The journal's submission attestation requires substantive generative-AI use
+% to be disclosed in Methods. Insert the disclosure at the end of Experimental
+% Design without modifying the preserved English scientific source.
+\let\STVROriginalSection\section
+\newif\ifSTVRAIDisclosed
+\STVRAIDisclosedfalse
+\RenewDocumentCommand{\section}{s o m}{%
+  \ifSTVRAIDisclosed\else
+    \def\STVRCurrentSection{#3}%
+    \def\STVRResultsSection{Results}%
+    \ifx\STVRCurrentSection\STVRResultsSection
+      \subsection{Use of generative AI tools}
+      \STVRAIStatement
+      \global\STVRAIDisclosedtrue
+    \fi
+  \fi
+  \IfBooleanTF{#1}{%
+    \STVROriginalSection*{#3}%
+  }{%
+    \IfNoValueTF{#2}{\STVROriginalSection{#3}}{\STVROriginalSection[#2]{#3}}%
+  }%
+}
 
 % STVR places acknowledgements and declaration material after the references
 % and before any appendices.
