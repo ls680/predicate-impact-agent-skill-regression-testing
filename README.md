@@ -103,7 +103,8 @@ hash-checked. Users must comply with each upstream project's license.
 
 ## Citation
 
-Citation metadata will be added when the author list is confirmed.
+Machine-readable citation metadata for Liang Song and Zhai Jiabao is provided
+in `CITATION.cff`. Add the paper DOI after publication.
 
 ## License
 

@@ -1,6 +1,5 @@
 Title: From Skill-Level to Predicate-Level: Budgeted Regression Test Selection for Evolving LLM Agent Skills
 
-Authors: [Author names to be confirmed; mark the corresponding author with an asterisk]
+Authors: Liang Song* and Zhai Jiabao
 
 PredicateImpact records predicate-level coverage from passing agent-skill traces and prioritizes tests that exercised the changed predicate. Across two disjoint ALFWorld and ScienceWorld confirmations, it detected all 179 killable mutations within a three-test budget, compared with about 56% expected detection for skill-family random selection, while avoiding 71-75% of full-family test executions.
-

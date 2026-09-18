@@ -22,10 +22,10 @@ Expected submission-facing outputs:
 - `../../../artifacts/predicate_rts_reproducibility_bundle.tar.gz`: supporting
   reproducibility archive for review.
 
-## Fields still requiring author confirmation
+## Author metadata
 
-Edit only `stvr_metadata.tex` after the authors provide names, order,
-affiliations, correspondence, ORCIDs, funding, competing interests,
-acknowledgements, CRediT roles, the generative-AI statement, GitHub release URL,
-and archival DOI. Do not replace placeholders with invented information.
-
+Names, order, affiliations, correspondence, the available ORCID, funding,
+competing interests, acknowledgements, CRediT roles, the generative-AI
+statement, and the GitHub URL are centralized in `stvr_metadata.tex`. The
+authors must verify the CRediT allocation before submission. No archival DOI
+has been assigned.
