@@ -8,6 +8,8 @@ scientific text and numerical claims remain synchronized with
 - `stvr_cover_letter.pdf`: optional editor-facing cover letter.
 - `stvr_main_manuscript_latex.zip`: self-contained LaTeX bundle for the
   portal's required Main Manuscript field; its main file is `main.tex`.
+- `stvr_main_manuscript_latex.pdf`: compiled 14-page PDF generated from the
+  matching LaTeX bundle for the portal's required LaTeX PDF field.
 - `stvr_graphical_abstract_text.txt`: 50-word table-of-contents caption.
 - `stvr_graphical_abstract_image.png`: graphical abstract image for separate
   upload.

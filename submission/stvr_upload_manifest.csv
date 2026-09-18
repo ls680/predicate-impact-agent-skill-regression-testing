@@ -1,5 +1,6 @@
 portal_designation,file,required,notes
 Main Manuscript,submission/stvr_main_manuscript_latex.zip,yes,"Self-contained LaTeX source bundle with embedded figures and tables; main file is main.tex"
+Main Document - LaTeX PDF,submission/stvr_main_manuscript_latex.pdf,yes,"Compiled 14-page PDF generated from the matching LaTeX source bundle"
 Graphical Abstract Text,submission/stvr_graphical_abstract_text.txt,no,"Exactly 50 words; upload as the graphical abstract caption"
 Graphical Abstract Image,submission/stvr_graphical_abstract_image.png,no,"Upload separately from the caption"
 Cover letter / Comments,submission/stvr_cover_letter.pdf,no,"Editor-facing cover letter"

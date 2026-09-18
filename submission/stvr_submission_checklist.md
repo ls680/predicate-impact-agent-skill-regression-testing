@@ -5,6 +5,8 @@ Status: ready for the corresponding author's final portal review.
 - [x] Article type is Research Paper.
 - [x] Main manuscript is a self-contained LaTeX ZIP whose `main.tex` compiles
   to a 14-page PDF with embedded figures and tables.
+- [x] The matching compiled 14-page PDF is prepared for the required LaTeX PDF
+  upload field.
 - [x] Title page contains both authors' names, affiliations, and email addresses.
 - [x] Corresponding author, postal address, email, and ORCID are identified.
 - [x] Abstract is 231 words and the manuscript supplies six keywords.
