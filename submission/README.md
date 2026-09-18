@@ -6,6 +6,11 @@ scientific text and numerical claims remain synchronized with
 `paper/predicate_rts/en/main.tex` and the generated result tables.
 
 - `stvr_cover_letter.pdf`: optional editor-facing cover letter.
+- `stvr_main_manuscript_latex.zip`: self-contained LaTeX bundle for the
+  portal's required Main Manuscript field; its main file is `main.tex`.
+- `stvr_graphical_abstract_text.txt`: 50-word table-of-contents caption.
+- `stvr_graphical_abstract_image.png`: graphical abstract image for separate
+  upload.
 - `stvr_cover_letter.md`: editable text of the cover letter.
 - `stvr_submission_metadata.md`: portal-ready author and declaration metadata.
 - `stvr_submission_checklist.md`: final human checks and upload designations.

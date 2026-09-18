@@ -3,7 +3,8 @@
 Status: ready for the corresponding author's final portal review.
 
 - [x] Article type is Research Paper.
-- [x] Main manuscript is a single 14-page PDF with embedded figures and tables.
+- [x] Main manuscript is a self-contained LaTeX ZIP whose `main.tex` compiles
+  to a 14-page PDF with embedded figures and tables.
 - [x] Title page contains both authors' names, affiliations, and email addresses.
 - [x] Corresponding author, postal address, email, and ORCID are identified.
 - [x] Abstract is 231 words and the manuscript supplies six keywords.
@@ -14,7 +15,8 @@ Status: ready for the corresponding author's final portal review.
 - [x] Public repository access is confirmed.
 - [x] The versioned dataset is published on Zenodo and formally cited in the manuscript.
 - [x] Generative-AI use is disclosed within Experimental Design.
-- [x] Graphical table-of-contents entry is prepared as a separate PDF and PNG.
+- [x] Graphical abstract image and exactly 50-word caption are prepared as
+  separate portal files.
 - [x] Reproducibility bundle is prepared as separate supporting information.
 - [x] Cover letter contains no placeholders.
 - [ ] Corresponding author checks the rendered files one final time in the submission portal.
