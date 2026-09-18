@@ -5,10 +5,12 @@ type: software
 authors:
   - family-names: "Song"
     given-names: "Liang"
+    email: "liangsong_1976@126.com"
     orcid: "https://orcid.org/0009-0002-6109-0639"
     affiliation: "Business School, Xi'an International University"
   - family-names: "Zhai"
     given-names: "Jiabao"
+    email: "zhaijiabao123@126.com"
     affiliation: "School of Management and Economics, North China University of Water Resources and Electric Power"
 repository-code: "https://github.com/ls680/predicate-impact-agent-skill-regression-testing"
 license: "Apache-2.0"

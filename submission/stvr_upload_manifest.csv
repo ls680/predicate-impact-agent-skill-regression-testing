@@ -1,0 +1,5 @@
+portal_designation,file,required,notes
+Main Document,paper/predicate_rts/stvr/stvr_research_paper.pdf,yes,"Single PDF with title page, abstract, figures, tables, references, and declarations"
+Supplementary material for review,paper/predicate_rts/stvr/graphical_toc_entry.pdf,yes,"Graphical table-of-contents entry"
+Supporting Information,artifacts/predicate_rts_reproducibility_bundle.tar.gz,recommended,"Code, data, frozen protocols, tests, and reproducibility files"
+Cover Letter,submission/stvr_cover_letter.pdf,no,"Optional editor-facing letter"

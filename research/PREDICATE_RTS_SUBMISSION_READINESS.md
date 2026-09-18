@@ -1,7 +1,7 @@
 # PredicateImpact Submission Readiness
 
-Status: **scientific draft and reproducibility artifact complete; venue-specific
-submission metadata remains open** (2026-09-06).
+Status: **STVR initial-submission package complete; corresponding-author portal
+review and submission remain** (2026-09-18).
 
 ## Completed Scientific Items
 
@@ -26,18 +26,23 @@ submission metadata remains open** (2026-09-06).
   boxes, or fatal errors and have been visually inspected.
 - [x] Forty-three offline tests and all R22--R24 source/roster audits pass.
 
-## Required Before Uploading to a Journal
+## Initial Submission Status
 
-- [ ] Select the target journal and article type, then apply its current
-  template, length limit, data policy, and generative-AI disclosure policy.
-- [ ] Supply real author names, order, affiliations, ORCIDs, and corresponding
-  author details.
-- [ ] Confirm funding, competing interests, acknowledgements, ethics status,
-  and preprint/previous-submission statements.
-- [ ] Create the public GitHub release, choose code/data licenses, and archive
-  the release for a DOI.
-- [ ] Replace anonymous placeholders only in the journal's required title-page
-  file; preserve anonymization when double-blind review requires it.
+- [x] Target *Software Testing, Verification and Reliability* as a Research
+  Paper and apply its initial-submission, length, data, graphical-TOC, and
+  generative-AI disclosure requirements.
+- [x] Supply both authors' names, order, affiliations, emails, the available
+  ORCID, and corresponding-author details.
+- [x] Confirm contributions, no funding, no competing interests, no
+  acknowledgements, ethics status, and originality/exclusivity.
+- [x] Publish the GitHub repository under Apache-2.0 with a frozen,
+  checksum-identified reproducibility bundle.
+- [x] Prepare the non-anonymized title page, graphical TOC entry, cover letter,
+  portal metadata, and upload manifest.
+- [ ] Corresponding author reviews the rendered files and accepts the
+  declarations in the journal portal.
+- [ ] Create an archival DOI if requested during review; none is assigned for
+  the initial submission.
 
 ## Residual Scientific Risk
 

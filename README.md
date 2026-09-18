@@ -1,6 +1,6 @@
 # PredicateImpact: Regression Test Selection for Agent Skills
 
-Current paper (2026-09-06): **From Skill-Level to Predicate-Level: Budgeted
+Current STVR submission (2026-09-18): **From Skill-Level to Predicate-Level: Budgeted
 Regression Test Selection for Evolving LLM Agent Skills**.
 
 This is the first positive paper produced from the Agent Skill lifecycle
@@ -59,7 +59,7 @@ predicate-impact-agent-skill-regression-testing/
 |-- revisions/25_real_skill_change_audit/
 |-- revisions/26_coverage_noise_sensitivity/
 |-- results/                          Generated tables and figures
-|-- submission/                       Journal-facing editable templates
+|-- submission/                       Final STVR materials and reusable templates
 |-- src/                              Shared implementation
 `-- tests/                            Network-free tests
 ```

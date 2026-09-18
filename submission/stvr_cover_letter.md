@@ -1,0 +1,51 @@
+18 September 2026
+
+Editors  
+*Software Testing, Verification and Reliability*
+
+Re: Research Paper submission, "From Skill-Level to Predicate-Level: Budgeted
+Regression Test Selection for Evolving LLM Agent Skills"
+
+Dear Editors,
+
+Please consider our manuscript for publication as a Research Paper in
+*Software Testing, Verification and Reliability*. The paper addresses a
+practical maintenance problem created by evolving reusable LLM-agent skills:
+when an expensive interactive test suite previously passed, which tests should
+be replayed first after a sparse conditional change?
+
+We introduce PredicateImpact, a dynamic change-impact method that ranks tests
+using predicate-level execution coverage, together with an auditable native
+mutation benchmark. Across two disjoint, content-blind ALFWorld/ScienceWorld
+confirmation rosters, PredicateImpact detects every killable mutation within a
+three-test budget. Its conditional detection rate is approximately 44
+percentage points above a strong random baseline that already knows the changed
+skill. Frozen subgroup gates are passed in both environments and for deletion,
+same-kind argument substitution, and adjacent-order swap. An exact
+predicate-coverage-set random ablation ties the proposed ranking, locating the
+gain in coverage granularity rather than an unsupported ordering advantage.
+
+The manuscript fits the journal's focus on software testing and evolution by
+extending regression-test selection and change-impact analysis to executable
+agent skills while retaining explicit mutation operators, fixed budgets,
+independent confirmation sets, and reproducible integrity checks. Source code,
+data, frozen protocols, analysis scripts, and the reproducibility bundle are
+publicly available at
+https://github.com/ls680/predicate-impact-agent-skill-regression-testing.
+
+We confirm that this manuscript has not been published previously and is not
+under consideration by another journal. Both authors approved the submitted
+version, the author order, and the contribution statement, and agree to be
+accountable for the work. The authors declare no competing interests and no
+specific funding. Generative-AI assistance is disclosed in the manuscript.
+
+Thank you for considering our work.
+
+Sincerely,
+
+Liang Song  
+Corresponding author  
+Business School, Xi'an International University  
+Xi'an 710077, China  
+liangsong_1976@126.com  
+ORCID: 0009-0002-6109-0639

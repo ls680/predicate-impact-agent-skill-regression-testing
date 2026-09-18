@@ -3,7 +3,7 @@
 ## Material available for initial peer review
 
 - Supplementary archive: `../../../artifacts/predicate_rts_reproducibility_bundle.tar.gz`
-- Archive SHA-256: `35e94ba95feafa3865d3bca8b1a2a5aa145450b84218b202354235a999ba6c9f`
+- Archive SHA-256: `3fb1dcd3d0e73e4f575d20da46ae60dabc2020c626b2bc9f302f9699c6675229`
 - Integrity manifest: `../../../artifacts/PREDICATE_RTS_MANIFEST.sha256`
 - Reproduction guide: `../../../REPRODUCE.md`
 

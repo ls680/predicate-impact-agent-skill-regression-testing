@@ -17,7 +17,7 @@ Expected submission-facing outputs:
 - `stvr_research_paper.pdf`: main Research Paper with embedded figures/tables;
 - `graphical_toc_entry.pdf`: separate graphical table-of-contents entry;
 - `graphical_toc_image.pdf` and `.png`: 50 mm x 60 mm graphical image;
-- `graphical_toc_text.txt`: title, author placeholder, and a two-sentence
+- `graphical_toc_text.txt`: title, authors, and a two-sentence
   summary below the journal's 80-word limit;
 - `../../../artifacts/predicate_rts_reproducibility_bundle.tar.gz`: supporting
   reproducibility archive for review.
@@ -26,6 +26,6 @@ Expected submission-facing outputs:
 
 Names, order, affiliations, correspondence, the available ORCID, funding,
 competing interests, acknowledgements, CRediT roles, the generative-AI
-statement, and the GitHub URL are centralized in `stvr_metadata.tex`. The
-authors must verify the CRediT allocation before submission. No archival DOI
-has been assigned.
+statement, and the GitHub URL are centralized in `stvr_metadata.tex`. Both
+authors have verified the CRediT allocation and approved the final manuscript.
+No archival DOI has been assigned.

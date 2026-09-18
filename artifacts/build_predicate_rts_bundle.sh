@@ -35,7 +35,6 @@ rsync -a --exclude='__pycache__/' --exclude='*.pyc' \
   "${PROJECT_ROOT}/configs/" "${DESTINATION}/configs/"
 rsync -a --exclude='__pycache__/' --exclude='*.pyc' \
   "${PROJECT_ROOT}/scripts/" "${DESTINATION}/scripts/"
-rsync -a "${PROJECT_ROOT}/submission/" "${DESTINATION}/submission/"
 rsync -a "${PROJECT_ROOT}/artifacts/verify_predicate_rts.sh" "${DESTINATION}/artifacts/"
 
 rsync -a \
@@ -143,6 +142,7 @@ tar --sort=name --mtime='UTC 2026-09-06' --owner=0 --group=0 --numeric-owner \
     ! -name '*.log' \
     ! -name '*.out' \
     ! -name '*.xdv' \
+    ! -path 'paper/predicate_rts/stvr/*' \
     -print0 | sort -z | xargs -0 sha256sum
   sha256sum artifacts/predicate_rts_reproducibility_bundle.tar.gz
 ) > "${MANIFEST}"
