@@ -3,8 +3,8 @@ message: "If you use this software or artifact, please cite it using the metadat
 title: "PredicateImpact: Regression Test Selection for Evolving LLM Agent Skills"
 type: software
 authors:
-  - family-names: "Song"
-    given-names: "Liang"
+  - family-names: "Liang"
+    given-names: "Song"
     email: "liangsong_1976@126.com"
     orcid: "https://orcid.org/0009-0002-6109-0639"
     affiliation: "Business School, Xi'an International University"

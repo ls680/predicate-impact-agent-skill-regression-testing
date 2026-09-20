@@ -3,7 +3,7 @@
 ## Material available for initial peer review
 
 - Supplementary archive: `../../../artifacts/predicate_rts_reproducibility_bundle.tar.gz`
-- Archive SHA-256: `3fb1dcd3d0e73e4f575d20da46ae60dabc2020c626b2bc9f302f9699c6675229`
+- Archive SHA-256: `c6d47c9bb9ec50fb84e0515850ccc76bc25232622d9f23ad341daa94a0721f26`
 - Integrity manifest: `../../../artifacts/PREDICATE_RTS_MANIFEST.sha256`
 - Reproduction guide: `../../../REPRODUCE.md`
 - Zenodo version DOI: https://doi.org/10.5281/zenodo.22824889
